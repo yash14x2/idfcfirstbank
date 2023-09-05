@@ -33,3 +33,10 @@ header nav{
 .nav-wrapper .nav-sections ul:last-child{
     background-color: transparent;
 }
+
+.section.hero-section-wrapper.columns-containerr{
+background : linear-gradient(94.07deg, #9B1E26 -17.35%, #000000 83.2% );
+box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+min-height: 225px;
+
+}
