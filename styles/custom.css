@@ -60,3 +60,12 @@ header nav .nav-sections > ul > li > ul::before{
     border-radius: 0;
     color: var(--white);
 }
+header nav .nav-brand img{
+    width: auto;
+    height: 36px;
+}
+.nav-wrapper #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
