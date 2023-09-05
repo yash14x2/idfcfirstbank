@@ -5,3 +5,18 @@
 .nav-wrapper{
     background: linear-gradient(270deg, #1B1B1B 55.84%, #202020 96.63%);
 }
+
+.nav-wrapper .nav-sections ul{
+    background: var(--black);
+    margin-left: 50px;
+    border-radius: 24px;
+}
+.nav-wrapper .nav-sections ul li{
+    margin: 0px;
+    line-height: 2.5;
+    font-size: 12px;
+}
+.nav-wrapper .nav-sections ul li a{
+    padding: 0 20px;
+    color: #FFFFFF;
+}
