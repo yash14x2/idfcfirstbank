@@ -87,3 +87,7 @@ header nav .nav-brand img{
 header nav a:any-link{
     color: var(--idfc-red);
 }
+.nav-sections em a:hover{
+    background-color: var(--idfc-red);
+    color: var(--white);
+}
