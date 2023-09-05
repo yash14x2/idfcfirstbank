@@ -30,3 +30,6 @@ header nav{
     background: rgba(157, 29, 39, 0.3);
     color: #FFFFFF;
 }
+.nav-wrapper .nav-sections ul:last-child{
+    background-color: transparent;
+}
