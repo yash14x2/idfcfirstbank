@@ -6,6 +6,7 @@
 }
 .nav-wrapper{
     background: linear-gradient(270deg, #1B1B1B 55.84%, #202020 96.63%);
+    height: 55px;
 }
 
 .nav-wrapper .nav-sections ul{
