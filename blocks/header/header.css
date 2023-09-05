@@ -162,7 +162,7 @@ header nav .nav-sections {
 }
 
 header nav[aria-expanded="true"] .nav-sections {
-  display: block;
+  display: flex;
   visibility: visible;
   align-self: start;
 }
@@ -277,4 +277,11 @@ header nav .nav-tools {
 .nav-sections {
   display: flex;
   justify-content: inherit;
+}
+
+.nav-wrapper .nav-sections ul li {
+    margin: 0px;
+    line-height: 2.5;
+    font-size: 12px;
+    color: white;
 }
