@@ -45,6 +45,7 @@ header nav .nav-sections .nav-drop::after{
     background : linear-gradient(94.07deg, #9B1E26 -17.35%, #000000 83.2% );
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
     height: 137px;
+    position: relative;
 }
 header nav .nav-sections > ul > li > ul::before{
     display: none;
@@ -135,8 +136,8 @@ top: 20%;
 }
 
 .columns-img-col picture{
-    position: absolute;
-    top: 20%;
+   position: absolute;
+    top: 0;
     left: 0%;
 }
 
