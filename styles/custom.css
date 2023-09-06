@@ -91,6 +91,27 @@ header nav a:any-link{
     background-color: var(--idfc-red);
     color: var(--white);
 }
+.nav-tools em a {
+    text-decoration: none;
+    color: var(--idfc-red);
+    background-color: var(--white);
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+}
+.nav-tools em a:hover{
+    background-color: var(--idfc-red);
+    color: var(--white);
+}
+.nav-tools em a:any-link{
+    color: var(--idfc-red);
+}
 
 @media screen and (min-width:900px) {
     header nav .nav-sections ul{
