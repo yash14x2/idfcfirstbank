@@ -49,10 +49,6 @@ header nav .nav-sections .nav-drop::after{
 header nav .nav-sections > ul > li > ul::before{
     display: none;
 }
-.nav-sections .nav-drop:hover{
-    display: block;
-    background-color: var(--black);
-}
 .nav-sections ul .nav-drop ul{
     background-color: var(--black);
 }
