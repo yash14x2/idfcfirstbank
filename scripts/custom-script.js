@@ -25,7 +25,7 @@ function initializeSlider() {
 
 // Function to check if the user has scrolled to a certain point
 function checkScroll() {
-  const triggerPoint = 300; // Adjust this value as needed
+  const triggerPoint = 10; // Adjust this value as needed
 
   if (window.scrollY > triggerPoint) {
     initializeSlider();
