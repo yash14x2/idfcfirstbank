@@ -146,7 +146,7 @@ h2#a-world-class-bank-in-india {
    
     position: absolute;
     left: 23%;
-    top: 21%;
+    top: 0%;
 }
 
 
@@ -156,11 +156,10 @@ h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good {
     color: white;
     position: absolute;
     left: 23%;
-    font-size: 31px;
     line-height: normal;
 }
 
-.section hero-section-wrapper columns-container code  {
+#guided-by-ethics-powered-by-technologyand-a-force-for-social-good code  {
     
 
 
