@@ -163,6 +163,11 @@ main .section.secondary-nav-section-wrapper{
     max-width: 1575px;
     margin: 0;
 }
+.secondary-nav-section-wrapper .default-content-wrapper ul li{
+    margin: 0;
+    position: relative;
+    list-style: none;
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul{
         gap: 5px;
