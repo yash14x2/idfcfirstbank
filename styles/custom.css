@@ -145,7 +145,7 @@ h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good {
 #guided-by-ethics-powered-by-technologyand-a-force-for-social-good code  {
     font-size: 28px;
 }
-.secondary-nav-section-wrapper{
+main .section.secondary-nav-section-wrapper{
     font-size: 14px;
     height: 45px;
     display: flex;
