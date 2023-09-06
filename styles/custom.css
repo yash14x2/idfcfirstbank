@@ -122,12 +122,9 @@ header nav a:any-link{
 }
 
 main .hero img {
-       object-fit: cover;
-    width: 34%;
-    height: auto;
-    margin-left: -30px;
-    position: absolute;
-    top: -14%;
+left : 0;
+position: absolute;
+top: 20%;
 }
 
 .section hero-section-wrapper columns-container{
