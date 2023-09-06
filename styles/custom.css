@@ -153,7 +153,13 @@ main .section.secondary-nav-section-wrapper{
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.1);
 }
-
+.secondary-nav-section-wrapper .default-content-wrapper ul{
+    display: flex;
+}
+.secondary-nav-section-wrapper .default-content-wrapper{
+    max-width: 1575px;
+    margin: 0;
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul{
         gap: 5px;
