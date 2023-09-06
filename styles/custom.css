@@ -155,6 +155,9 @@ main .section.secondary-nav-section-wrapper{
 }
 .secondary-nav-section-wrapper .default-content-wrapper ul{
     display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
 .secondary-nav-section-wrapper .default-content-wrapper{
     max-width: 1575px;
