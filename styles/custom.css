@@ -113,7 +113,8 @@ header nav a:any-link{
 
 
 
-.section hero-container{
+.section.hero-container
+{
 
     position: absolute;
     z-index: 999;
