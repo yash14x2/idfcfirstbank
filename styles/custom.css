@@ -110,3 +110,25 @@ header nav a:any-link{
         gap: 5px;
     }
 }
+
+
+
+.section hero-container{
+
+    position: absolute;
+    z-index: 999;
+
+}
+
+main .hero img {
+    object-fit: cover;
+    width: 34%;
+    height: auto;
+}
+
+.section hero-section-wrapper columns-container{
+        width: 100%;
+    position: absolute;
+    top: 0;
+
+}
