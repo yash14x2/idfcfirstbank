@@ -106,20 +106,10 @@ header nav a:any-link{
     background-color: var(--idfc-red);
     color: var(--white);
 }
-@media screen and (min-width:900px) {
-    header nav .nav-sections ul{
-        gap: 5px;
-    }
-}
-
-
-
 .section.hero-container
 {
-
     position: absolute;
     z-index: 999;
-
 }
 
 main .hero img {
@@ -128,11 +118,8 @@ position: absolute;
 top: 20%;
 }
 
-.section hero-section-wrapper columns-container{
-        width: 100%;
-    position: absolute;
-    top: 0;
-
+.section.hero-section-wrapper.columns-container{
+    position: relative;
 }
 
 .columns-img-col picture{
@@ -143,26 +130,24 @@ top: 20%;
 
 h2#a-world-class-bank-in-india {
     color: white;
-   
     position: absolute;
     left: 23%;
     top: 0%;
 }
 
-
-element.style {
-}
 h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good {
      color: white;
     position: absolute;
     left: 22.4%;
-    
     top: 26px;
 }
 
 #guided-by-ethics-powered-by-technologyand-a-force-for-social-good code  {
-    
-
-
     font-size: 28px;
+}
+
+@media screen and (min-width:900px) {
+    header nav .nav-sections ul{
+        gap: 5px;
+    }
 }
