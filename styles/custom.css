@@ -173,3 +173,15 @@ main .section.secondary-nav-section-wrapper{
         gap: 5px;
     }
 }
+
+.columns-wrapper:nth-child(2) code{
+ font-size: 29px;
+    color: white;
+    position: absolute;
+    left: 30%;
+    line-height: 38px;
+    text-align: left;
+    font-weight: 700;
+    width: 49%;
+
+}
