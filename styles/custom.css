@@ -224,3 +224,13 @@ main .section.secondary-nav-section-wrapper{
 
 
 }
+
+    .tns-controls {
+            position: absolute;
+  
+    z-index: 99;
+    right: 5%;
+    top: 84%;
+}
+
+
