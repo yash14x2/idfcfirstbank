@@ -168,7 +168,8 @@ main .section.secondary-nav-section-wrapper{
     margin: 0;
     position: relative;
     list-style: none;
-    display: block;
+    display: flex;
+    align-items: center;
     border-bottom: 3px solid #FFFFFF;
     padding: 0 18px;
     color: var(--idfc-red);
@@ -186,6 +187,7 @@ main .section.secondary-nav-section-wrapper{
     padding: 3px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    margin: 0 5px;
 }
 .secondary-nav-section-wrapper .default-content-wrapper ul li::after:hover{
     transform: rotate(-135deg);
