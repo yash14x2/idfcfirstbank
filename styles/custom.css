@@ -123,9 +123,9 @@ top: 20%;
 }
 
 .columns-img-col picture{
-   position: absolute;
-    top: 0;
-    left: 0%;
+/*    position: absolute; */
+/*     top: 0; */
+/*     left: 0%; */
 }
 
 h2#a-world-class-bank-in-india {
@@ -202,11 +202,11 @@ main .section.secondary-nav-section-wrapper{
 .columns-wrapper:nth-child(2) code{
  font-size: 29px;
     color: white;
-    position: absolute;
-    left: 30%;
-    line-height: 38px;
-    text-align: left;
-    font-weight: 700;
-    width: 49%;
+/*     position: absolute; */
+/*     left: 30%; */
+/*     line-height: 38px; */
+/*     text-align: left; */
+/*     font-weight: 700; */
+/*     width: 49%; */
 
 }

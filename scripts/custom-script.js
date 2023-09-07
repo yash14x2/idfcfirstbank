@@ -7,7 +7,7 @@ function initializeSlider() {
 
     const slider = tns({
       container: '.hero-section-wrapper',
-      loop: true,
+      loop: false,
       items: 1,
       slideBy: 'page',
       nav: false,
