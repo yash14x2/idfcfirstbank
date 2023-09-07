@@ -158,6 +158,7 @@ main .section.secondary-nav-section-wrapper{
     margin: 0;
     padding: 0;
     align-items: center;
+    height: 100%;
 }
 .secondary-nav-section-wrapper .default-content-wrapper{
     max-width: 1575px;
@@ -170,10 +171,9 @@ main .section.secondary-nav-section-wrapper{
     display: block;
     border-bottom: 3px solid #FFFFFF;
     padding: 14px 18px;
-    height: 45px;
-    /* color: rgba(37, 36, 59, 0.8); */
     color: var(--idfc-red);
     white-space: nowrap;
+    cursor: pointer;
 }
 .secondary-nav-section-wrapper .default-content-wrapper ul li ul{
     display: none;
