@@ -213,6 +213,9 @@ main .section.secondary-nav-section-wrapper{
     max-width: 25%;
 
 }
+.hero-section-wrapper{
+    padding: 64px 0;
+}
 
 #tns1 > .tns-item {
     width: calc(50%);
