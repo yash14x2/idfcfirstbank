@@ -178,6 +178,14 @@ main .section.secondary-nav-section-wrapper{
 .secondary-nav-section-wrapper .default-content-wrapper ul li ul{
     display: none;
 }
+.secondary-nav-section-wrapper .default-content-wrapper ul li::after{
+border: 2px solid var(--idfc-red) ;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul{
         gap: 5px;
