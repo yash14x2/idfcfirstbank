@@ -11,10 +11,10 @@ function initializeSlider() {
       items: 1,
       slideBy: 'page',
       nav: false,
-      autoplay: true,
+      autoplay: false,
       speed: 400,
       autoplayButtonOutput: false,
-      controls: false,
+      controls: true,
       mouseDrag: true,
       lazyload: true,
     });
