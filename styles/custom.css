@@ -170,7 +170,7 @@ main .section.secondary-nav-section-wrapper{
     list-style: none;
     display: block;
     border-bottom: 3px solid #FFFFFF;
-    padding: 14px 18px;
+    padding: 0 18px;
     color: var(--idfc-red);
     white-space: nowrap;
     cursor: pointer;
