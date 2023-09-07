@@ -179,6 +179,7 @@ main .section.secondary-nav-section-wrapper{
     display: none;
 }
 .secondary-nav-section-wrapper .default-content-wrapper ul li::after{
+    content: "";
 border: 2px solid var(--idfc-red) ;
   border-width: 0 3px 3px 0;
   display: inline-block;
