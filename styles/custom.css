@@ -215,3 +215,12 @@ main .section.secondary-nav-section-wrapper{
     width: calc(50%);
     min-width: calc(50%);
 }
+
+.columns-wrapper:nth-child(2) picture{
+
+     position: absolute;
+    top: 0;
+    width : 100%;
+
+
+}
