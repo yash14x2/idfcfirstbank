@@ -39,7 +39,10 @@ window.addEventListener('scroll', checkScroll);
 
 document.addEventListener("DOMContentLoaded", function () {
     var liElem = document.querySelector('.secondary-nav-section-wrapper .default-content-wrapper ul li');
-    liElem.forEach(function(item) {
-        item.classList.add('up-arrow'); 
-    });
+    // liElem.forEach(function(item) {
+    //     item.classList.add('up-arrow'); 
+    // });
+    for (var i = 0; i < liElem.length; i++) {
+        liElem[i].classList.add('up-arrow');
+      }
 });
