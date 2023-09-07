@@ -167,6 +167,13 @@ main .section.secondary-nav-section-wrapper{
     margin: 0;
     position: relative;
     list-style: none;
+    display: block;
+    border-bottom: 3px solid #FFFFFF;
+    padding: 14px 18px;
+    height: 45px;
+    /* color: rgba(37, 36, 59, 0.8); */
+    color: var(--idfc-red);
+    white-space: nowrap;
 }
 .secondary-nav-section-wrapper .default-content-wrapper ul li ul{
     display: none;
