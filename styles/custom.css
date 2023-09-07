@@ -196,6 +196,9 @@ main .section.secondary-nav-section-wrapper{
 .secondary-nav-section-wrapper .default-content-wrapper{
     display: flex;
 }
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li::after{
+    display: none;
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul{
         gap: 5px;
