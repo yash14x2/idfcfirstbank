@@ -2,10 +2,6 @@ let sliderInitialized = false; // To track whether the slider has been initializ
 
 // Function to initialize the slider
 function initializeSlider() {
-    for (var i = 0; i < liElem.length; i++) {
-        liElem[i].classList.add('up-arrow');
-      }
- 
 
     const slider = tns({
       container: '.hero-section-wrapper',
