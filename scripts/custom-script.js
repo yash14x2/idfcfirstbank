@@ -37,7 +37,9 @@ function checkScroll() {
 // Add a scroll event listener to trigger the initialization when the user scrolls
 window.addEventListener('scroll', checkScroll);
 
-var liElem = document.querySelector('.secondary-nav-section-wrapper .default-content-wrapper ul li');
-liElem.forEach(function(item) {
-    item.classList.add('up-arrow'); 
-  });
+document.addEventListener("DOMContentLoaded", function () {
+    var liElem = document.querySelector('.secondary-nav-section-wrapper .default-content-wrapper ul li');
+    liElem.forEach(function(item) {
+        item.classList.add('up-arrow'); 
+    });
+});
