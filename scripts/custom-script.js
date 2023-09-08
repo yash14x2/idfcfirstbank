@@ -32,6 +32,16 @@ function checkScroll() {
   }
 }
 
+// Select the button element with the data-controls attribute set to "next"
+const Nbutton = document.querySelector('button[data-controls="next"]');
+Nbutton.textContent = "";
+
+const Pbutton = document.querySelector('button[data-controls="prev"]');
+Pbutton.textContent = "";
+
+
+
+
 // Add a scroll event listener to trigger the initialization when the user scrolls
 window.addEventListener('scroll', checkScroll);
 
