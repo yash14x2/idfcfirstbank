@@ -276,7 +276,7 @@ main .section.hero-section-wrapper {
     top: 84%;
 }
 
-.secondary-nav-section-wrapper .tns-outer .tns-controls button[data-controls="prev"] {
+ .tns-outer#tns1-ow .tns-controls button[data-controls="prev"] {
     content: "";
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -285,7 +285,7 @@ main .section.hero-section-wrapper {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
-.secondary-nav-section-wrapper .tns-outer .tns-controls button[data-controls="next"] {
+ .tns-outer#tns1-ow .tns-controls button[data-controls="next"] {
     content: "";
     border: solid black;
     border-width: 0 3px 3px 0;
