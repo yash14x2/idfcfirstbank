@@ -22,7 +22,7 @@ function initializeSlider() {
 const Nbutton = document.querySelector('button[data-controls="next"]');
 
 // Change the text inside the button
-Pbutton.textContent = " "; // Replace "New Text" with your desired text
+Nbutton.textContent = " "; // Replace "New Text" with your desired text
 
 const Pbutton = document.querySelector('button[data-controls="prev"]');
 
