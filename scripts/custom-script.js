@@ -32,7 +32,7 @@ function initializeSlider() {
 
 // Delay the initialization of the slider for 2 seconds after the page loads
 document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(initializeSlider, 1000); // 2000 milliseconds (2 seconds)
+  setTimeout(initializeSlider, 2000); // 2000 milliseconds (2 seconds)
 });
 
 // You can add more code here to work with the button element if needed
