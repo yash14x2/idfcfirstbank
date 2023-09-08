@@ -302,6 +302,18 @@ main .section.hero-section-wrapper {
     border-radius: 50%;
     background:var(--white);
     color:var(--idfc-red);
+    padding: 0;
+}
+.tns-outer#tns1-ow .tns-controls button[data-controls="prev"]{
+    margin-right: 15px;
+}
+.tns-outer#tns1-ow{
+    position: relative;
+}
+.tns-outer#tns1-ow .tns-controls{
+    position: absolute;
+    top: auto;
+    bottom: 0px;
 }
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
