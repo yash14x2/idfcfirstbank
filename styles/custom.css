@@ -278,7 +278,7 @@ main .section.hero-section-wrapper {
 
  .tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
     content: "";
-    border: solid black;
+    border: solid var(--idfc-red);
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -288,7 +288,7 @@ main .section.hero-section-wrapper {
 }
  .tns-outer#tns1-ow .tns-controls button[data-controls="next"]::after {
     content: "";
-    border: solid black;
+    border: solid var(--idfc-red);
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
