@@ -20,7 +20,7 @@ function initializeSlider() {
 }
 
 // Delay the initialization of the slider for 2 seconds (adjust the time as needed)
-setTimeout(initializeSlider, 2000); // 2000 milliseconds (2 seconds)
+setTimeout(initializeSlider, 1000); // 2000 milliseconds (2 seconds)
 
 // Select the button element with the data-controls attribute set to "next"
 
