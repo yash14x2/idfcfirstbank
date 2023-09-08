@@ -18,22 +18,21 @@ function initializeSlider() {
 
   sliderInitialized = true; // Set to true to avoid reinitialization
 
-// Select the button element with the data-controls attribute set to "next"
-const Nbutton = document.querySelector('button[data-controls="next"]');
+  // Select the button element with the data-controls attribute set to "next"
+  const Nbutton = document.querySelector('button[data-controls="next"]');
 
-// Change the text inside the button
-Nbutton.textContent = " "; // Replace "New Text" with your desired text
+  // Change the text inside the button
+  Nbutton.textContent = " "; // Replace "New Text" with your desired text
 
-const Pbutton = document.querySelector('button[data-controls="prev"]');
+  const Pbutton = document.querySelector('button[data-controls="prev"]');
 
-// Change the text inside the button
-Pbutton.textContent = " "; // Replace "New Text" with your desired text
-
+  // Change the text inside the button
+  Pbutton.textContent = " "; // Replace "New Text" with your desired text
 }
 
-// Delay the initialization of the slider for 2 seconds (adjust the time as needed)
-setTimeout(initializeSlider, 1000); // 2000 milliseconds (2 seconds)
-
-// Select the button element with the data-controls attribute set to "next"
+// Delay the initialization of the slider for 2 seconds after the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(initializeSlider, 2000); // 2000 milliseconds (2 seconds)
+});
 
 // You can add more code here to work with the button element if needed
