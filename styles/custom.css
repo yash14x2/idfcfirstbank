@@ -284,6 +284,7 @@ main .section.hero-section-wrapper {
     padding: 3px;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
+    border-radius: 0;
 }
  .tns-outer#tns1-ow .tns-controls button[data-controls="next"] {
     content: "";
@@ -293,6 +294,7 @@ main .section.hero-section-wrapper {
     padding: 3px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    border-radius: 0;
 }
 
 @media screen and (min-width:900px) {
