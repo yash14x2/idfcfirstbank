@@ -2,6 +2,7 @@
     --black: #000;
     --idfc-red: #DA3442;
     --white: #fff;
+    --light-white: #f2f2f2;
 }
 
 .nav-wrapper {
@@ -314,6 +315,10 @@ main .section.hero-section-wrapper {
     position: absolute;
     top: auto;
     bottom: 0px;
+}
+.tns-outer#tns1-ow .tns-controls button:disabled{
+    opacity: 0.5;
+    background-color: var(--light-white);
 }
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
