@@ -233,6 +233,10 @@ main .section.secondary-nav-section-wrapper {
     padding: 0 15px 0 46px;
     white-space: nowrap;
 }
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li a:any-link{
+    text-decoration: none;
+    color: var(--white);
+}
 .columns-wrapper:nth-child(2) code {
     font-size: 29px;
     color: white;
