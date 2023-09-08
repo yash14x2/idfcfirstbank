@@ -17,6 +17,13 @@ function initializeSlider() {
   });
 
   sliderInitialized = true; // Set to true to avoid reinitialization
+
+// Select the button element with the data-controls attribute set to "next"
+const button = document.querySelector('button[data-controls="next"]');
+
+// Change the text inside the button
+button.textContent = "New Text"; // Replace "New Text" with your desired text
+
 }
 
 // Delay the initialization of the slider for 2 seconds (adjust the time as needed)
