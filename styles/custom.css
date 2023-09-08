@@ -320,6 +320,12 @@ main .section.hero-section-wrapper {
     opacity: 0.5;
     background-color: var(--light-white);
 }
+.active-tab{
+    background: linear-gradient(135deg, #9D1D27 0.12%, #6E0A0F 100%);
+    font-weight: inherit;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;

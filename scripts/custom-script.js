@@ -29,10 +29,16 @@ function initializeSlider() {
   // Change the text inside the button
   Pbutton.textContent = " "; // Replace "New Text" with your desired text
 }
-
+function navActiveTab(){
+  var active = document.querySelector('.nav-sections ul li:first-child');
+  active.classList.add('active-tab');
+}
 // Delay the initialization of the slider for 2 seconds after the page loads
 document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(initializeSlider, 2000); // 2000 milliseconds (2 seconds)
+  setTimeout(
+    navActiveTab,
+    initializeSlider,
+     2000); // 2000 milliseconds (2 seconds)
 });
 
 // You can add more code here to work with the button element if needed
