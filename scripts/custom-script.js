@@ -60,7 +60,7 @@ let sliderInitializedd = false; // To track whether the slider has been initiali
 // Function to initialize the slider
 function initializeSliderr() {
   const slider = tns({
-    container: '.second-card-firstslider .cards-wrapper ul',
+    container: '.second-card-firstslider .cards-wrapper ',
     loop: false,
     items: 1,
     slideBy: 'page',
