@@ -296,7 +296,13 @@ main .section.hero-section-wrapper {
     -webkit-transform: rotate(-45deg);
     border-radius: 0;
 }
-
+.tns-outer#tns1-ow .tns-controls button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:var(--white);
+    color:var(--idfc-red);
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
