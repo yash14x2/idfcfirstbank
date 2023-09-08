@@ -217,10 +217,12 @@ main .section.secondary-nav-section-wrapper {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
+
 .secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li::after {
     display: none;
 }
-.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li{
+
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li {
     background: #000 url(https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/home-page-rewamp/IDFC-merger-1.gif) no-repeat -4px 0;
     background-size: 130px;
     box-shadow: 0px 0px 5px rgba(155, 30, 38, 0.8);
@@ -233,10 +235,12 @@ main .section.secondary-nav-section-wrapper {
     padding: 0 15px 0 46px;
     white-space: nowrap;
 }
-.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li a:any-link{
+
+.secondary-nav-section-wrapper .default-content-wrapper ul:nth-child(2) li a:any-link {
     text-decoration: none;
     color: var(--white);
 }
+
 .columns-wrapper:nth-child(2) code {
     font-size: 29px;
     color: white;
@@ -270,6 +274,25 @@ main .section.hero-section-wrapper {
     z-index: 99;
     right: 5%;
     top: 84%;
+}
+
+.secondary-nav-section-wrapper .tns-outer .tns-controls [data-controls="prev"] {
+    content: "";
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.secondary-nav-section-wrapper .tns-outer .tns-controls [data-controls="next"] {
+    content: "";
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 @media screen and (min-width:900px) {
