@@ -23,7 +23,12 @@ function initializeSlider() {
 
 // Function to check if the user has scrolled to a certain point
 function checkScroll() {
-  const triggerPoint = 10; // Adjust this value as needed
+  const triggerPoint = 10;
+const Nbutton = document.querySelector('button[data-controls="next"]');
+Nbutton.textContent = "";
+
+const Pbutton = document.querySelector('button[data-controls="prev"]');
+Pbutton.textContent = ""; // Adjust this value as needed
 
   if (window.scrollY > triggerPoint) {
     initializeSlider();
@@ -31,6 +36,12 @@ function checkScroll() {
     window.removeEventListener('scroll', checkScroll);
   }
 }
+
+// Select the button element with the data-controls attribute set to "next"
+
+
+
+
 
 // Add a scroll event listener to trigger the initialization when the user scrolls
 window.addEventListener('scroll', checkScroll);
