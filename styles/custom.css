@@ -463,6 +463,8 @@ main .section.hero-section-wrapper {
     header nav[aria-expanded="true"] .nav-brand {
         flex-basis: auto;
         padding: 0 15px;
+        display: flex;
+        width: -webkit-fill-available;
     }
 
     header nav[aria-expanded="true"] .nav-hamburger {
