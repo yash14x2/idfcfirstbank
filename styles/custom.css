@@ -442,5 +442,6 @@ main .section.hero-section-wrapper {
     }
     .nav-wrapper .nav-sections ul:last-child{
         flex-direction: column;
+        align-items: flex-start;
     }
 }
