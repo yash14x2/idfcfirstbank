@@ -474,6 +474,8 @@ main .section.hero-section-wrapper {
         position: relative;
         background: #f3f3f3;
         border-bottom: 1px solid #d8d8d8;
+        font-size: 14px;
+        color: #222;
     }
 
     header nav[aria-expanded="true"] .nav-sections ul .nav-drop::after {
