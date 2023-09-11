@@ -544,4 +544,7 @@ main .section.hero-section-wrapper {
     .header .nav-wrapper #nav .nav-tools p:last-child{
         display: block;
     }
+    header nav[aria-expanded="false"] .nav-tools{
+        display: flex;
+    }
 }
