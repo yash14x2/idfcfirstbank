@@ -425,7 +425,9 @@ main .section.hero-section-wrapper {
     color: #000;
 }
 
-
+.header .nav-wrapper #nav .nav-tools p:last-child{
+    display: none;
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
@@ -530,5 +532,12 @@ main .section.hero-section-wrapper {
         position: absolute;
         top: 29px;
         right: 20px;
+    }
+    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good code{
+        font-size: 16px;
+    }
+    h2#a-world-class-bank-in-india{
+        font-size: 20px;
+        line-height: 1.2;
     }
 }
