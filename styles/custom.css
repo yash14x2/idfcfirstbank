@@ -405,15 +405,12 @@ main .section.hero-section-wrapper {
     margin-bottom: 0em;
 }
 
-
-
-
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
     }
 }
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
     main .section.secondary-nav-section-wrapper{
         display: none;
     }
