@@ -424,7 +424,7 @@ main .section.hero-section-wrapper {
         display: none;
     }
     .nav-wrapper{
-        background-color: var(--white);
+        background: var(--white);
     }
 }
 
