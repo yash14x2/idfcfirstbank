@@ -493,4 +493,7 @@ main .section.hero-section-wrapper {
     header nav[aria-expanded="true"] .nav-sections p em a{
         display: none;
     }
+    .nav-wrapper .nav-sections ul:last-child{
+        flex-direction: column;
+    }
 }
