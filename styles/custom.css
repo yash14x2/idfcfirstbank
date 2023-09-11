@@ -407,7 +407,7 @@ main .section.hero-section-wrapper {
     font-size: 18px;
 }
 
-.section.bank-card-slider-wapper .button-container .button .primary{
+.section.bank-card-slider-wapper .button-container .button.primary{
     text-align: center;
     background-color: transparent;
     display: flex;
