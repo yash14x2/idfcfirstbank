@@ -328,7 +328,7 @@ main .section.hero-section-wrapper {
 }
 .section.secondary-nav-section-wrapper {
     position: sticky;
-    top: 0;
+    top: 64px;
     z-index: 100;
     background-color: #fff;
 }
