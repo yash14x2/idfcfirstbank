@@ -310,6 +310,7 @@ main .section.hero-section-wrapper {
 }
 .tns-outer#tns1-ow{
     position: relative;
+    z-index: 1;
 }
 .tns-outer#tns1-ow .tns-controls{
     position: absolute;
