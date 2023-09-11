@@ -477,4 +477,7 @@ main .section.hero-section-wrapper {
         flex-basis: auto;
         padding: 0 15px;
     }
+    header nav[aria-expanded="true"] .nav-hamburger{
+        order: unset;
+    }
 }
