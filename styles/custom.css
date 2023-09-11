@@ -480,4 +480,10 @@ main .section.hero-section-wrapper {
     header nav[aria-expanded="true"] .nav-hamburger{
         order: unset;
     }
+    .nav-wrapper .nav-sections ul li{
+        color: var(--black);
+    }
+    .nav-wrapper .nav-sections ul:last-child .nav-drop ul{
+        display: none;
+    }
 }
