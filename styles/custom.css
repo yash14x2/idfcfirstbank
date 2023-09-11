@@ -422,7 +422,7 @@ main .section.hero-section-wrapper {
     color: #000;
 }
 
-.header .nav-wrapper #nav .nav-tools:last-child{
+.header .nav-wrapper #nav .nav-tools p:last-child{
     display: none;
 }
 @media screen and (min-width:900px) {
@@ -541,7 +541,7 @@ main .section.hero-section-wrapper {
         font-size: 20px;
         line-height: 1.2;
     }
-    .header .nav-wrapper #nav .nav-tools:last-child{
+    .header .nav-wrapper #nav .nav-tools p:last-child{
         display: block;
     }
 }
