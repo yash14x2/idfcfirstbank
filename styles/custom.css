@@ -397,12 +397,14 @@ main .section.hero-section-wrapper {
     font-weight: 500;
     margin-top: 0em;
     margin-bottom: 0em;
+    font-size: 23px;
 }
 
 .section.bank-card-slider-wapper .default-content-wrapper p{
     color: #FFFFFF;
     margin-top: 0em;
     margin-bottom: 0em;
+    font-size: 18px;
 }
 
 @media screen and (min-width:900px) {
