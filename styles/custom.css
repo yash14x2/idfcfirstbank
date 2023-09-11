@@ -414,5 +414,8 @@ main .section.hero-section-wrapper {
     main .section.secondary-nav-section-wrapper{
         display: none;
     }
+    header .nav-wrapper{
+        background-color: var(--white);
+    }
 }
 
