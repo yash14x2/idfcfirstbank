@@ -399,14 +399,6 @@ main .section.hero-section-wrapper {
     background: #F3DADC;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards ul li p:nth-child(1){
-    color: #9B1E26;
-}
-
-.bank-card-slider-wapper .cards-wrapper .cards ul li p:nth-child(2){
-    color: #000;
-}
-
 .bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(2){
     background: #e8ecf9;
 }
@@ -488,14 +480,10 @@ main .section.hero-section-wrapper {
         padding: 0 15px;
         display: flex;
         width: -webkit-fill-available;
-        padding-top: 15px;
     }
 
     header nav[aria-expanded="true"] .nav-hamburger {
         order: unset;
-        position: absolute;
-        right: 20px;
-        top: 22px;
     }
 
     .nav-wrapper .nav-sections ul li {
