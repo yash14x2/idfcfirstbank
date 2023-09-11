@@ -458,4 +458,7 @@ main .section.hero-section-wrapper {
     header nav .nav-hamburger button{
         color: var(--idfc-red);
     }
+    header nav .nav-hamburger{
+        order: 3;
+    }
 }
