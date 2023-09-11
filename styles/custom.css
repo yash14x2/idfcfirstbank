@@ -420,6 +420,7 @@ main .section.hero-section-wrapper {
     .nav-wrapper .nav-sections ul{
         display: flex;
         flex-wrap: wrap;
+        border-radius: 0;
     }
     header nav[aria-expanded="true"] .nav-brand{
         flex-basis: auto;
