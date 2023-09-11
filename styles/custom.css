@@ -399,11 +399,11 @@ main .section.hero-section-wrapper {
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards ul li p:nth-child(1){
-    background: #9B1E26;
+    color: #9B1E26;
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards ul li p:nth-child(2){
-    background: #000;
+    color: #000;
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(2){
