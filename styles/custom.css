@@ -541,4 +541,8 @@ main .section.hero-section-wrapper {
         top: 29px;
         right: 20px;
     }
+    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good{
+        font-size: 20px;
+        line-height: 1.2;
+    }
 }
