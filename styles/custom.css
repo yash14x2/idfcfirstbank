@@ -477,13 +477,17 @@ main .section.hero-section-wrapper {
 
     header nav[aria-expanded="true"] .nav-brand {
         flex-basis: auto;
-        padding: 0 15px;
+        padding: 15px 15px 15px 15px;
         display: flex;
         width: -webkit-fill-available;
+        
     }
 
     header nav[aria-expanded="true"] .nav-hamburger {
         order: unset;
+        position: absolute;
+        right: 20px;
+        top: 15px;
     }
 
     .nav-wrapper .nav-sections ul li {
