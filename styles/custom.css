@@ -277,7 +277,7 @@ main .section.hero-section-wrapper {
     top: 84%;
 }
 
- .tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
+.tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
     content: "";
     border: solid var(--idfc-red);
     border-width: 0 3px 3px 0;
@@ -287,7 +287,8 @@ main .section.hero-section-wrapper {
     -webkit-transform: rotate(135deg);
     border-radius: 0;
 }
- .tns-outer#tns1-ow .tns-controls button[data-controls="next"]::after {
+
+.tns-outer#tns1-ow .tns-controls button[data-controls="next"]::after {
     content: "";
     border: solid var(--idfc-red);
     border-width: 0 3px 3px 0;
@@ -297,36 +298,43 @@ main .section.hero-section-wrapper {
     -webkit-transform: rotate(-45deg);
     border-radius: 0;
 }
-.tns-outer#tns1-ow .tns-controls button{
+
+.tns-outer#tns1-ow .tns-controls button {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background:var(--white);
-    color:var(--idfc-red);
+    background: var(--white);
+    color: var(--idfc-red);
     padding: 0;
 }
-.tns-outer#tns1-ow .tns-controls button[data-controls="prev"]{
+
+.tns-outer#tns1-ow .tns-controls button[data-controls="prev"] {
     margin-right: 15px;
 }
-.tns-outer#tns1-ow{
+
+.tns-outer#tns1-ow {
     position: relative;
     z-index: 1;
 }
-.tns-outer#tns1-ow .tns-controls{
+
+.tns-outer#tns1-ow .tns-controls {
     position: absolute;
     top: auto;
     bottom: 0px;
 }
-.tns-outer#tns1-ow .tns-controls button:disabled{
+
+.tns-outer#tns1-ow .tns-controls button:disabled {
     opacity: 0.5;
     background-color: var(--light-white);
 }
-.active-tab{
+
+.active-tab {
     background: linear-gradient(135deg, #9D1D27 0.12%, #6E0A0F 100%);
     font-weight: inherit;
     color: #FFFFFF;
     border-radius: 12px;
 }
+
 .section.secondary-nav-section-wrapper {
     position: sticky;
     top: 64px;
@@ -335,64 +343,71 @@ main .section.hero-section-wrapper {
 }
 
 .cards-container {
-    position: relative; /* Set the container to relative positioning */
+    position: relative;
+    /* Set the container to relative positioning */
 }
-  
+
 .cards-wrapper {
-    position: absolute; /* Set absolute positioning for the cards wrapper */
+    position: absolute;
+    /* Set absolute positioning for the cards wrapper */
     top: 0;
     left: 0;
 }
-  
+
 .cards-wrapper ul {
-    list-style: none; /* Remove the list styles */
+    list-style: none;
+    /* Remove the list styles */
     padding: 0;
     margin: 0;
 }
-  
+
 .cards-wrapper ul li {
-    position: absolute; /* Set absolute positioning for each card */
+    position: absolute;
+    /* Set absolute positioning for each card */
     top: 0;
     left: 0;
-    opacity: 0; /* Hide all cards initially */
-    transition: opacity 0.3s ease; /* Add a transition for a smooth effect */
+    opacity: 0;
+    /* Hide all cards initially */
+    transition: opacity 0.3s ease;
+    /* Add a transition for a smooth effect */
 }
-  
+
 .cards-wrapper ul li:first-child {
-    opacity: 1; /* Show the first card */
+    opacity: 1;
+    /* Show the first card */
 }
-  
-  /* Adjust z-index values to stack the cards on top of each other */
+
+/* Adjust z-index values to stack the cards on top of each other */
 .cards-wrapper ul li:nth-child(2) {
     z-index: 1;
 }
-  
+
 .cards-wrapper ul li:nth-child(3) {
     z-index: 2;
 }
-  
-  /* Add more nth-child rules for additional cards if needed */
-  
-  /* Style for card images and text (adjust as needed) */
+
+/* Add more nth-child rules for additional cards if needed */
+
+/* Style for card images and text (adjust as needed) */
 .cards-card-image img {
     width: 100%;
     height: auto;
 }
-  
+
 .cards-card-body {
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-} 
+}
 
-.section.bank-card-slider-wapper{
+.section.bank-card-slider-wapper {
     background: #9B1E26;
     border-radius: 24px;
     padding: 24px 15px 15px 15px;
     color: #FFFFFF;
 }
 
-.section.bank-card-slider-wapper .default-content-wrapper #ways-to-bank{
+.section.bank-card-slider-wapper .default-content-wrapper #ways-to-bank {
     color: #FFFFFF;
     font-weight: 500;
     margin-top: 0em;
@@ -400,14 +415,14 @@ main .section.hero-section-wrapper {
     font-size: 23px;
 }
 
-.section.bank-card-slider-wapper .default-content-wrapper p{
+.section.bank-card-slider-wapper .default-content-wrapper p {
     color: #FFFFFF;
     margin-top: 0em;
     margin-bottom: 0em;
     font-size: 18px;
 }
 
-.section.bank-card-slider-wapper .button-container .button.primary{
+.section.bank-card-slider-wapper .button-container .button.primary {
     text-align: center;
     background-color: transparent;
     display: flex;
@@ -419,12 +434,25 @@ main .section.hero-section-wrapper {
         gap: 5px;
     }
 }
+
 @media screen and (max-width:768px) {
-    main .section.secondary-nav-section-wrapper{
+    main .section.secondary-nav-section-wrapper {
         display: none;
     }
-    .nav-wrapper{
+
+    .nav-wrapper {
         background: var(--white);
     }
-}
 
+    .nav-wrapper nav#nav .nav-tools p em a {
+        font-size: 12px;
+        font-weight: 600;
+        border: solid 1px;
+        padding: 8px 15px;
+        margin-left: 15px;
+        line-height: 1.2;
+        background: var(--white);
+        color: var(--idfc-red);
+        border-radius: 25px;
+    }
+}
