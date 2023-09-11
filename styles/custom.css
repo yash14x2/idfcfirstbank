@@ -425,6 +425,7 @@ main .section.hero-section-wrapper {
     .nav-wrapper .nav-sections ul{
         display: flex;
         flex-wrap: wrap;
+        border-radius: 0;
     }
     header nav[aria-expanded="true"] .nav-brand{
         flex-basis: auto;
@@ -447,5 +448,12 @@ main .section.hero-section-wrapper {
     }
     .nav-wrapper .nav-sections ul:last-child{
         flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-wrapper .nav-sections ul:last-child li{
+        padding: 20px 15px;
+        position: relative;
+        background: #f3f3f3;
+        border-bottom: 1px solid #d8d8d8;
     }
 }
