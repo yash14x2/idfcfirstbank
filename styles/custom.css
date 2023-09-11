@@ -394,7 +394,7 @@ main .section.hero-section-wrapper {
     z-index: 1;
     border-radius: 20px;
 }
-.bank-card-slider-wapper .cards-wrapper .cards ul:nth-child(1){
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(1){
     background: #F3DADC;
 }
 
