@@ -390,6 +390,7 @@ main .section.hero-section-wrapper {
     border-radius: 24px;
     padding: 24px 15px 15px 15px;
     color: #FFFFFF;
+    margin-top: 32px;
 }
 
 .section.bank-card-slider-wapper .default-content-wrapper #ways-to-bank{
