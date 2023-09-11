@@ -488,10 +488,14 @@ main .section.hero-section-wrapper {
         padding: 0 15px;
         display: flex;
         width: -webkit-fill-available;
+        padding-top: 15px;
     }
 
     header nav[aria-expanded="true"] .nav-hamburger {
         order: unset;
+        position: absolute;
+        right: 20px;
+        top: 22px;
     }
 
     .nav-wrapper .nav-sections ul li {
