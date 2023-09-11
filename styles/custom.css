@@ -455,4 +455,7 @@ main .section.hero-section-wrapper {
         color: var(--idfc-red);
         border-radius: 25px;
     }
+    header nav .nav-hamburger button{
+        color: var(--idfc-red);
+    }
 }
