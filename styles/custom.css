@@ -392,12 +392,22 @@ main .section.hero-section-wrapper {
     width: 100%;
     height: 100%;
     z-index: 1;
-   
     border-radius: 20px;
 }
 .bank-card-slider-wapper .cards-wrapper .cards ul:nth-child(1){
     background: #F3DADC;
 }
+
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
+    background-color: white;
+    padding: 0px; 
+    box-shadow:none; 
+}
+
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p{
+    color: #000;
+}
+
 
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
