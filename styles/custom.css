@@ -468,6 +468,7 @@ main .section.hero-section-wrapper {
     }
     header nav[aria-expanded="true"] .nav-sections{
         flex-direction: column;
+        justify-content: unset;
     }
     .nav-wrapper .nav-sections ul{
         display: flex;
