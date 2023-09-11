@@ -378,7 +378,8 @@ main .section.hero-section-wrapper {
 }
 
 .bank-card-slider-wapper .default-content-wrapper .cards-wrapper .cards ul li img{
-    width: none;
+    width: 100%;
+    height: 100%;
     object-fit:contain;
 }
 
