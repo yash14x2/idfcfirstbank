@@ -343,7 +343,7 @@ main .section.hero-section-wrapper {
 }
 
 .cards-card-body {
-    background-color: transparent;
+    background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -411,6 +411,9 @@ main .section.hero-section-wrapper {
     background: #f3dadc;
 }
 
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
+    background: transparent;
+}
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
     background-color: white;
@@ -476,17 +479,13 @@ main .section.hero-section-wrapper {
 
     header nav[aria-expanded="true"] .nav-brand {
         flex-basis: auto;
-        padding: 15px 15px 0 15px;
+        padding: 0 15px;
         display: flex;
         width: -webkit-fill-available;
-        
     }
 
     header nav[aria-expanded="true"] .nav-hamburger {
         order: unset;
-        position: absolute;
-        right: 20px;
-        top: 20px;
     }
 
     .nav-wrapper .nav-sections ul li {
@@ -531,12 +530,5 @@ main .section.hero-section-wrapper {
         position: absolute;
         top: 29px;
         right: 20px;
-    }
-    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good code{
-        font-size: 16px;
-    }
-    h2#a-world-class-bank-in-india{
-        font-size: 20px;
-        line-height: 1.2;
     }
 }
