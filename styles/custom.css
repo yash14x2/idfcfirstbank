@@ -462,7 +462,7 @@ main .section.hero-section-wrapper {
     header nav .nav-hamburger{
         order: 3;
     }
-    .nav-wrapper #nav{
+    .nav-wrapper #nav[aria-expanded="true"]{
         flex-direction: column;
     }
     header nav[aria-expanded="true"] .nav-sections{
