@@ -395,7 +395,9 @@ main .section.hero-section-wrapper {
    
     border-radius: 20px;
 }
-
+.bank-card-slider-wapper .cards-wrapper .cards ul:nth-child(1){
+    background: #F3DADC;
+}
 
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
