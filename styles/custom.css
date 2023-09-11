@@ -341,6 +341,7 @@ main .section.hero-section-wrapper {
     z-index: 100;
     background-color: #fff;
 }
+
 .cards-card-body {
     background-color: white;
     padding: 20px;
@@ -403,52 +404,76 @@ main .section.hero-section-wrapper {
         color: var(--idfc-red);
         border-radius: 25px;
     }
-    header nav .nav-hamburger button{
+
+    header nav .nav-hamburger button {
         color: var(--idfc-red);
     }
-    header nav .nav-hamburger{
+
+    header nav .nav-hamburger {
         order: 3;
     }
-    .nav-wrapper #nav[aria-expanded="true"]{
+
+    .nav-wrapper #nav[aria-expanded="true"] {
         flex-direction: column;
         padding: 0;
     }
-    header nav[aria-expanded="true"] .nav-sections{
+
+    header nav[aria-expanded="true"] .nav-sections {
         flex-direction: column;
         justify-content: unset;
     }
-    .nav-wrapper .nav-sections ul{
+
+    .nav-wrapper .nav-sections ul {
         display: flex;
         flex-wrap: wrap;
         border-radius: 0;
     }
-    header nav[aria-expanded="true"] .nav-brand{
+
+    header nav[aria-expanded="true"] .nav-brand {
         flex-basis: auto;
         padding: 0 15px;
     }
-    header nav[aria-expanded="true"] .nav-hamburger{
+
+    header nav[aria-expanded="true"] .nav-hamburger {
         order: unset;
     }
-    .nav-wrapper .nav-sections ul li{
+
+    .nav-wrapper .nav-sections ul li {
         color: var(--black);
     }
-    .nav-wrapper .nav-sections ul:last-child .nav-drop ul{
+
+    .nav-wrapper .nav-sections ul:last-child .nav-drop ul {
         display: none;
     }
-    header nav[aria-expanded="true"] .nav-tools{
+
+    header nav[aria-expanded="true"] .nav-tools {
         display: none;
     }
-    header nav[aria-expanded="true"] .nav-sections p em a{
+
+    header nav[aria-expanded="true"] .nav-sections p em a {
         display: none;
     }
-    .nav-wrapper .nav-sections ul:last-child{
+
+    .nav-wrapper .nav-sections ul:last-child {
         flex-direction: column;
         align-items: flex-start;
     }
-    .nav-wrapper .nav-sections ul:last-child li{
+
+    .nav-wrapper .nav-sections ul:last-child li {
         padding: 20px 15px;
         position: relative;
         background: #f3f3f3;
         border-bottom: 1px solid #d8d8d8;
+    }
+
+    header nav[aria-expanded="true"] .nav-sections .ul .nav-drop::after {
+        content: "";
+        border: 2px solid var(--idfc-red);
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin: 0 5px;
     }
 }
