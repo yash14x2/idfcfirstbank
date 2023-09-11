@@ -473,7 +473,7 @@ main .section.hero-section-wrapper {
         display: flex;
         flex-wrap: wrap;
     }
-    header .nav-brand{
+    header nav[aria-expanded="true"] .nav-brand{
         flex-basis: auto;
         padding: 0 15px;
     }
