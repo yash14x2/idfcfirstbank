@@ -378,10 +378,14 @@ main .section.hero-section-wrapper {
     justify-content: center;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image img{
-    width: 10%;
-    height: 10%;
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image {
+    width: 100px;
+    height: 100px;
     /* object-fit:contain; */
+}
+
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image img{
+    object-fit:contain;
 }
 
 @media screen and (min-width:900px) {
