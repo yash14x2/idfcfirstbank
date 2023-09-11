@@ -377,6 +377,11 @@ main .section.hero-section-wrapper {
     justify-content: center;
 }
 
+.bank-card-slider-wapper .default-content-wrapper .cards-wrapper .cards ul li img{
+    width: none;
+    object-fit:contain;
+}
+
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
