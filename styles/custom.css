@@ -392,14 +392,14 @@ main .section.hero-section-wrapper {
     color: #FFFFFF;
 }
 
-.section.bank-card-slider-wapper.default-content-wrapper #ways-to-bank{
+.section.bank-card-slider-wapper .default-content-wrapper #ways-to-bank{
     color: #FFFFFF;
     font-weight: 500;
     margin-top: 0em;
     margin-bottom: 0em;
 }
 
-.section.bank-card-slider-wapper.default-content-wrapper p{
+.section.bank-card-slider-wapper .default-content-wrapper p{
     color: #FFFFFF;
     margin-top: 0em;
     margin-bottom: 0em;
