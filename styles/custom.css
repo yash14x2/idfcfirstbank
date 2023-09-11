@@ -399,6 +399,18 @@ main .section.hero-section-wrapper {
     background: #F3DADC;
 }
 
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(2){
+    background: #e8ecf9;
+}
+
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(3){
+    background: #fff7e8;
+}
+
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(4){
+    background: #f3dadc;
+}
+
 
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
@@ -468,14 +480,10 @@ main .section.hero-section-wrapper {
         padding: 0 15px;
         display: flex;
         width: -webkit-fill-available;
-        padding-top: 15px;
     }
 
     header nav[aria-expanded="true"] .nav-hamburger {
         order: unset;
-        position: absolute;
-        right: 20px;
-        top: 22px;
     }
 
     .nav-wrapper .nav-sections ul li {
