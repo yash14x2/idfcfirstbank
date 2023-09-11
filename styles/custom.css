@@ -401,6 +401,10 @@ main .section.hero-section-wrapper {
     box-shadow:none; 
 }
 
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p{
+    color: #000;
+}
+
 
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
