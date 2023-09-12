@@ -563,4 +563,8 @@ main .section.hero-section-wrapper {
     #guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
         font-size: 16px;
     }
+    .hero-section-wrapper .columns-img-col picture{
+        top: unset;
+        left: -62px;
+    }
 }
