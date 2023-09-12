@@ -133,7 +133,7 @@ if (slider) {
 // Function to initialize and move the carousel
 const prev = document.createElement("button");
 prev.classList.add("prev-button")
-const nex = document.createElement("button");
+const next = document.createElement("button");
 next.classList.add(".next-button");
 document.body.appendChild(prev);
 document.body.appendChild(next);
