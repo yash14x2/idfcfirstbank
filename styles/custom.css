@@ -383,6 +383,10 @@ main .section.hero-section-wrapper {
     background-color: transparent;
     display: flex;
     justify-content: center;
+    margin: 0;
+}
+.section.bank-card-slider-wapper .default-content-wrapper .button-container{
+    padding: 0;
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image {
