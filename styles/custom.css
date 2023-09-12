@@ -412,7 +412,7 @@ main .section.hero-section-wrapper {
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li {
-    width: 100%;
+    width: 31%;
     height: 100%;
     z-index: 1;
     border-radius: 20px;
