@@ -130,32 +130,27 @@ if (slider) {
   
 // You can add more code here to work with the button element if needed
 // Function to initialize and move the carousel
-const prev = document.createElement("button");
-prev.classList.add("prev-button");
-prev.textContent = "Previous"; // Add text to the button
+const carousel = document.querySelector('.cards-wrapper ul');
+const prevButton = document.createElement("button");
+const nextButton = document.createElement("button");
 
-const next = document.createElement("button");
-next.classList.add("next-button");
-next.textContent = "Next"; // Add text to the button
+prevButton.classList.add("prev-button");
+nextButton.classList.add("next-button");
 
-// Append the buttons to the document
-document.body.appendChild(prev);
-document.body.appendChild(next);
+prevButton.textContent = "Previous";
+nextButton.textContent = "Next";
 
-// Select carousel items
-const carouselItems = document.querySelectorAll('.cards-wrapper li'); // Get carousel items
+document.querySelector('.cards-wrapper').appendChild(prevButton);
+document.querySelector('.cards-wrapper').appendChild(nextButton);
 
-// Rest of your code for carousel functionality
-const carousel = document.querySelector('.cards ul');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
-
+const itemsPerPage = 1; // Adjust the number of items per page as needed
 let currentIndex = 0;
 
 // Function to move the carousel to a specific index
 function moveCarousel(index) {
-  const itemWidth = carouselItems[0].offsetWidth; // Get the width of each <li>
-  const translateX = -index * itemWidth;
+  currentIndex = index;
+  const itemWidth = carousel.clientWidth / itemsPerPage;
+  const translateX = -currentIndex * itemWidth;
   carousel.style.transform = `translateX(${translateX}px)`;
 }
 
@@ -167,7 +162,7 @@ prevButton.addEventListener('click', () => {
 
 // Event listener for the next button
 nextButton.addEventListener('click', () => {
-  currentIndex = Math.min(currentIndex + 1, carouselItems.length - 1); // Ensure currentIndex doesn't exceed the number of items
+  currentIndex = Math.min(currentIndex + 1, carousel.children.length - itemsPerPage); // Ensure currentIndex doesn't exceed the number of items
   moveCarousel(currentIndex);
 });
 
