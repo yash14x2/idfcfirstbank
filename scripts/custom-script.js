@@ -108,10 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
 // You can add more code here to work with the button element if needed
-
-
-
-// Wrap your carousel initialization and movement code in a setTimeout
 // Function to initialize and move the carousel
 function initializeAndMoveCarousel() {
   const carousel = document.querySelector('.carousel');
@@ -161,7 +157,7 @@ function handleIntersection(entries, observer) {
 }
 
 // Specify the target element to observe
-const targetElement = document.querySelector('.your-target-element-selector');
+const targetElement = document.querySelector('.bank-card-slider-wapper .cards-wrapper .cards');
 
 // Create an Intersection Observer
 const observer = new IntersectionObserver(handleIntersection, {
@@ -172,3 +168,8 @@ const observer = new IntersectionObserver(handleIntersection, {
 
 // Start observing the target element
 observer.observe(targetElement);
+
+
+
+// Wrap your carousel initialization and movement code in a setTimeout
+// Function to initialize and move the carousel
