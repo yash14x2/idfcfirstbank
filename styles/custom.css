@@ -552,4 +552,7 @@ main .section.hero-section-wrapper {
     header nav[aria-expanded="false"] .nav-tools{
         display: flex;
     }
+    #guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
+        font-size: 16px;
+    }
 }
