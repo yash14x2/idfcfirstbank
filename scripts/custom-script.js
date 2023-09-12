@@ -25,7 +25,7 @@ function initializeSlider() {
     container: '.bank-card-slider-wapper .cards-wrapper .cards',
 
     loop: false,
-    items: 3,
+    items: 2,
     slideBy: 'page',
     nav: false,
     autoplay: false,
@@ -35,9 +35,9 @@ function initializeSlider() {
     mouseDrag: true,
     lazyload: true,
     responsive: { 
-      // 768: {
-      //     items: 1,
-      // }
+      768: {
+          items: 1,
+      }
   }
   });
 
