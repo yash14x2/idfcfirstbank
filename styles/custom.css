@@ -567,4 +567,7 @@ main .section.hero-section-wrapper {
         top: unset;
         left: -62px;
     }
+    .columns-wrapper:nth-child(2) picture{
+        left: 0;
+    }
 }
