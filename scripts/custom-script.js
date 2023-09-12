@@ -82,10 +82,16 @@ function navActiveTab(){
 document.addEventListener('DOMContentLoaded', function() {
   setTimeout(
     initializeSlider,
-    initializeSlider2,
+   
      2000); // 2000 milliseconds (2 seconds)
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeSlider2
+   // 2000 milliseconds (2 seconds)
+  });
+  
 // You can add more code here to work with the button element if needed
 
 
