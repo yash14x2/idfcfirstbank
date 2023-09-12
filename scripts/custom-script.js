@@ -21,24 +21,24 @@ function initializeSlider() {
   }
   });
 
-  const slider2 = tns({
-    container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
-    loop: false,
-    items: 3,
-    slideBy: 'page',
-    nav: false,
-    autoplay: false,
-    speed: 400,
-    autoplayButtonOutput: false,
-    controls: true,
-    mouseDrag: true,
-    lazyload: true,
-    responsive: { 
-      // 768: {
-      //     items: 1,
-      // }
-  }
-  });
+  // const slider2 = tns({
+  //   container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
+  //   loop: false,
+  //   items: 3,
+  //   slideBy: 'page',
+  //   nav: false,
+  //   autoplay: false,
+  //   speed: 400,
+  //   autoplayButtonOutput: false,
+  //   controls: true,
+  //   mouseDrag: true,
+  //   lazyload: true,
+  //   responsive: { 
+  //     // 768: {
+  //     //     items: 1,
+  //     // }
+  // }
+  // });
 
   sliderInitialized = true; // Set to true to avoid reinitialization
 
