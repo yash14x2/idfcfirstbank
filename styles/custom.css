@@ -397,6 +397,7 @@ main .section.hero-section-wrapper {
     padding: 3px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    margin-left: 5px;
 }
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image {
     width: 220px;
