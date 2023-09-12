@@ -162,7 +162,10 @@ h3#guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
 #guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
     font-size: 28px;
 }
-
+#enjoy-zero-charges-on-28-commonly-used-savings-account-services{
+    position: relative;
+    color: var(--white);
+}
 main .section.secondary-nav-section-wrapper {
     font-size: 14px;
     height: 45px;
