@@ -21,6 +21,25 @@ function initializeSlider() {
   }
   });
 
+  const slider2 = tns({
+    container: '.bank-card-slider-wapper',
+    loop: false,
+    items: 1,
+    slideBy: 'page',
+    nav: false,
+    autoplay: false,
+    speed: 400,
+    autoplayButtonOutput: false,
+    controls: true,
+    mouseDrag: true,
+    lazyload: true,
+    responsive: { 
+      768: {
+          items: 1,
+      }
+  }
+  });
+
   sliderInitialized = true; // Set to true to avoid reinitialization
 
   // Select the button element with the data-controls attribute set to "next"
