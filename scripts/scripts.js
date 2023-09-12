@@ -2,24 +2,24 @@ let sliderInitialized = false; // To track whether the slider has been initializ
 
 // Function to initialize the slider
 function initializeSlider() {
-  const slider = tns({
-    container: '.hero-section-wrapper',
-    loop: false,
-    items: 1,
-    slideBy: 'page',
-    nav: false,
-    autoplay: false,
-    speed: 400,
-    autoplayButtonOutput: false,
-    controls: true,
-    mouseDrag: true,
-    lazyload: true,
-    responsive: { 
-      768: {
-          items: 1,
-      }
-  }
-  });
+  // const slider = tns({
+  //   container: '.hero-section-wrapper',
+  //   loop: false,
+  //   items: 1,
+  //   slideBy: 'page',
+  //   nav: false,
+  //   autoplay: false,
+  //   speed: 400,
+  //   autoplayButtonOutput: false,
+  //   controls: true,
+  //   mouseDrag: true,
+  //   lazyload: true,
+  //   responsive: { 
+  //     768: {
+  //         items: 1,
+  //     }
+  // }
+  // });
 
   const slider2 = tns({
     container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
