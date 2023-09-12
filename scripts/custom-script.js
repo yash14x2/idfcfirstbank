@@ -109,11 +109,18 @@ document.addEventListener('DOMContentLoaded', function() {
   
 // You can add more code here to work with the button element if needed
 // Function to initialize and move the carousel
+// Function to initialize and move the carousel
 function initializeAndMoveCarousel() {
   const carousel = document.querySelector('.carousel');
   const prevButton = document.querySelector('.prev-button');
   const nextButton = document.querySelector('.next-button');
   const carouselItems = document.querySelectorAll('.carousel li');
+
+  // Check if carouselItems exist before accessing them
+  if (carouselItems.length === 0) {
+    return; // Exit the function if no carousel items are found
+  }
+
   const itemWidth = carouselItems[0].clientWidth;
   let currentIndex = 0;
 
