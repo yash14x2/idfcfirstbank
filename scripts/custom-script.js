@@ -22,7 +22,7 @@ function initializeSlider() {
   });
 
   const slider2 = tns({
-    container: '.bank-card-slider-wapper',
+    container: '.bank-card-slider-wapper ul',
     loop: false,
     items: 1,
     slideBy: 'page',
