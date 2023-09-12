@@ -664,3 +664,41 @@ main .section.hero-section-wrapper {
         left: 41%;
     }
 }
+
+/* Set the width and hide overflowing content */
+.cards-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex; /* Display list items in a row */
+  width: 100%; /* Ensure full width */
+  transition: transform 0.3s ease; /* Smooth sliding transition */
+}
+
+.carousel li {
+  flex: 0 0 100%; /* Make each item take full width */
+  margin-right: 10px; /* Add spacing between items */
+  list-style: none; /* Remove default list styles */
+}
+
+/* Style for the previous and next buttons */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
