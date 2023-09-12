@@ -568,6 +568,6 @@ main .section.hero-section-wrapper {
         left: -62px;
     }
     .columns-wrapper:nth-child(2) picture{
-        left: 0;
+        left: unset;
     }
 }
