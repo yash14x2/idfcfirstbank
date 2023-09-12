@@ -134,7 +134,9 @@ if (slider) {
 const prev = document.createElement("button");
 prev.classList.add("prev-button")
 const nex = document.createElement("button");
-prev.classList.add(".next-button")
+next.classList.add(".next-button");
+document.body.appendChild(prev);
+document.body.appendChild(next);
 const carousel = document.querySelector('.cards ul');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
