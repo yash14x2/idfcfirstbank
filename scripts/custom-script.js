@@ -131,73 +131,30 @@ if (slider) {
 // You can add more code here to work with the button element if needed
 // Function to initialize and move the carousel
 // Function to initialize and move the carousel
-function initializeAndMoveCarousel() {
-  const carousel = document.querySelector('.carousel');
-  const prevButton = document.querySelector('.prev-button');
-  const nextButton = document.querySelector('.next-button');
-  const carouselItems = document.querySelectorAll('.carousel li');
+const carousel = document.querySelector('.cards ul');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
 
-  // Check if carouselItems exist before accessing them
-  if (carouselItems.length === 0) {
-    return; // Exit the function if no carousel items are found
-  }
+let currentIndex = 0;
 
-  const itemWidth = carouselItems[0].clientWidth;
-  let currentIndex = 0;
+// Function to move the carousel to a specific index
+function moveCarousel(index) {
+  const itemWidth = carouselItems[0].offsetWidth; // Get the width of each <li>
+  const translateX = -index * itemWidth;
+  carousel.style.transform = `translateX(${translateX}px)`;
+}
 
-  // Function to move the carousel to a specific index
-  function moveCarousel(index) {
-    if (index < 0) {
-      currentIndex = 0;
-    } else if (index >= carouselItems.length - 1) {
-      currentIndex = carouselItems.length - 1;
-    } else {
-      currentIndex = index;
-    }
-
-    const translateX = -currentIndex * itemWidth;
-    carousel.style.transform = `translateX(${translateX}px)`;
-  }
-
-  // Event listener for the previous button
-  prevButton.addEventListener('click', () => {
-    moveCarousel(currentIndex - 1);
-  });
-
-  // Event listener for the next button
-  nextButton.addEventListener('click', () => {
-    moveCarousel(currentIndex + 1);
-  });
-
-  // Initial positioning
+// Event listener for the previous button
+prevButton.addEventListener('click', () => {
+  currentIndex = Math.max(currentIndex - 1, 0); // Ensure currentIndex doesn't go below 0
   moveCarousel(currentIndex);
-}
-
-// Function to handle intersection changes
-function handleIntersection(entries, observer) {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      // Initialize and move the carousel when it's in view
-      initializeAndMoveCarousel();
-      observer.unobserve(entry.target); // Stop observing once it's initialized
-    }
-  });
-}
-
-// Specify the target element to observe
-const targetElement = document.querySelector('.bank-card-slider-wapper .cards-wrapper .cards');
-
-// Create an Intersection Observer
-const observer = new IntersectionObserver(handleIntersection, {
-  root: null, // Use the viewport as the root
-  rootMargin: '0px', // No margin
-  threshold: 0.5, // Trigger when at least 50% of the element is in view
 });
 
-// Start observing the target element
-observer.observe(targetElement);
+// Event listener for the next button
+nextButton.addEventListener('click', () => {
+  currentIndex = Math.min(currentIndex + 1, carouselItems.length - 1); // Ensure currentIndex doesn't exceed the number of items
+  moveCarousel(currentIndex);
+});
 
-
-
-// Wrap your carousel initialization and movement code in a setTimeout
-// Function to initialize and move the carousel
+// Initial positioning
+moveCarousel(currentIndex);
