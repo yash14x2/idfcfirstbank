@@ -25,7 +25,7 @@ function initializeSlider() {
     container: '.bank-card-slider-wapper .cards-wrapper .cards',
 
     loop: false,
-    items: 3.2,
+    items: 4,
     slideBy: 'page',
     nav: false,
     autoplay: false,
