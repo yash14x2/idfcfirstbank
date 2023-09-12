@@ -679,6 +679,7 @@ main .section.hero-section-wrapper {
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
   list-style: none; /* Remove list bullet points */
+  transform: translateX(-33.333%); /* Hide the first three items */
 }
 
 .cards li {
@@ -688,3 +689,4 @@ main .section.hero-section-wrapper {
 }
 
 /* Optionally, you can add styles for navigation buttons */
+
