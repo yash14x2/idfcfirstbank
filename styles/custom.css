@@ -426,7 +426,7 @@ main .section.hero-section-wrapper {
     box-shadow:none; 
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p:nth-child(1){
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p{
     color: #9B1E26;
     margin: 0px;
 }
