@@ -432,8 +432,9 @@ main .section.hero-section-wrapper {
     font-size: 24px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p:nth-child(2){
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body p:nth-child(2){
     color: #000;
+    font-size: 14px;
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body p{
