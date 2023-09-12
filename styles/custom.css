@@ -479,6 +479,12 @@ main .section.hero-section-wrapper {
     background-color: transparent;
 }
 
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
