@@ -596,4 +596,7 @@ main .section.hero-section-wrapper {
         font-size: 18px;
         line-height: 1.3;
     }
+    main .section.hero-section-wrapper{
+        padding: 50px 15px;
+    }
 }
