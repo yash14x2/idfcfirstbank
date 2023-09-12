@@ -566,6 +566,7 @@ main .section.hero-section-wrapper {
     .hero-section-wrapper .columns-img-col picture{
         top: unset;
         left: -62px;
+        z-index: -1;
     }
     .columns-wrapper:nth-child(2) picture{
         left: unset;
