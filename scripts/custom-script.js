@@ -91,7 +91,7 @@ function initializeSlider2() {
   }
   
   // Specify the element you want to watch for visibility
-  const targetElement = document.querySelector('.your-target-element-selector');
+  const targetElement = document.querySelector('.bank-card-slider-wapper .cards-wrapper .cards');
   
   const observerOptions = {
     root: null, // Use the viewport as the root
