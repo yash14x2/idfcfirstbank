@@ -346,7 +346,7 @@ main .section.hero-section-wrapper {
 }
 
 .cards-card-body {
-    background-color: white;
+    /* background-color: white; */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
