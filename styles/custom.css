@@ -388,7 +388,15 @@ main .section.hero-section-wrapper {
 .section.bank-card-slider-wapper .default-content-wrapper .button-container{
     padding: 0;
 }
-
+.section.bank-card-slider-wapper .default-content-wrapper .button-container .button.primary::after{
+    content: "";
+    border: solid var(--white);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image {
     width: 220px;
     height: 100px;
