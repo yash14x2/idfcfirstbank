@@ -130,41 +130,50 @@ if (slider) {
   
 // You can add more code here to work with the button element if needed
 // Function to initialize and move the carousel
-const carousel = document.querySelector('.cards-wrapper ul');
-const prevButton = document.createElement("button");
-const nextButton = document.createElement("button");
+// Wrap your carousel initialization code in a function
+function initializeCarousel() {
+  const carouselWrapper = document.querySelector('.cards-wrapper');
+  const carousel = carouselWrapper.querySelector('ul');
+  const prevButton = document.createElement("button");
+  const nextButton = document.createElement("button");
 
-prevButton.classList.add("prev-button");
-nextButton.classList.add("next-button");
+  prevButton.classList.add("prev-button");
+  nextButton.classList.add("next-button");
 
-prevButton.textContent = "Previous";
-nextButton.textContent = "Next";
+  prevButton.textContent = "Previous";
+  nextButton.textContent = "Next";
 
-document.querySelector('.cards-wrapper').appendChild(prevButton);
-document.querySelector('.cards-wrapper').appendChild(nextButton);
+  carouselWrapper.appendChild(prevButton);
+  carouselWrapper.appendChild(nextButton);
 
-const itemsPerPage = 1; // Adjust the number of items per page as needed
-let currentIndex = 0;
+  const itemsPerPage = 1; // Adjust the number of items per page as needed
+  let currentIndex = 0;
 
-// Function to move the carousel to a specific index
-function moveCarousel(index) {
-  currentIndex = index;
-  const itemWidth = carousel.clientWidth / itemsPerPage;
-  const translateX = -currentIndex * itemWidth;
-  carousel.style.transform = `translateX(${translateX}px)`;
+  // Function to move the carousel to a specific index
+  function moveCarousel(index) {
+    currentIndex = index;
+    const itemWidth = carousel.clientWidth / itemsPerPage;
+    const translateX = -currentIndex * itemWidth;
+    carousel.style.transform = `translateX(${translateX}px)`;
+  }
+
+  // Event listener for the previous button
+  prevButton.addEventListener('click', () => {
+    currentIndex = Math.max(currentIndex - 1, 0); // Ensure currentIndex doesn't go below 0
+    moveCarousel(currentIndex);
+  });
+
+  // Event listener for the next button
+  nextButton.addEventListener('click', () => {
+    currentIndex = Math.min(currentIndex + 1, carousel.children.length - itemsPerPage); // Ensure currentIndex doesn't exceed the number of items
+    moveCarousel(currentIndex);
+  });
+
+  // Initial positioning
+  moveCarousel(currentIndex);
 }
 
-// Event listener for the previous button
-prevButton.addEventListener('click', () => {
-  currentIndex = Math.max(currentIndex - 1, 0); // Ensure currentIndex doesn't go below 0
-  moveCarousel(currentIndex);
+// Delay the initialization of the carousel for 3 seconds after the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(initializeCarousel, 3000); // 3000 milliseconds (3 seconds)
 });
-
-// Event listener for the next button
-nextButton.addEventListener('click', () => {
-  currentIndex = Math.min(currentIndex + 1, carousel.children.length - itemsPerPage); // Ensure currentIndex doesn't exceed the number of items
-  moveCarousel(currentIndex);
-});
-
-// Initial positioning
-moveCarousel(currentIndex);
