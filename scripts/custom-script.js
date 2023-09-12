@@ -112,7 +112,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Wrap your carousel initialization and movement code in a setTimeout
-setTimeout(function() {
+// Function to initialize and move the carousel
+function initializeAndMoveCarousel() {
   const carousel = document.querySelector('.carousel');
   const prevButton = document.querySelector('.prev-button');
   const nextButton = document.querySelector('.next-button');
@@ -146,4 +147,28 @@ setTimeout(function() {
 
   // Initial positioning
   moveCarousel(currentIndex);
-}, 2000); // 2000 milliseconds (2 seconds) delay
+}
+
+// Function to handle intersection changes
+function handleIntersection(entries, observer) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Initialize and move the carousel when it's in view
+      initializeAndMoveCarousel();
+      observer.unobserve(entry.target); // Stop observing once it's initialized
+    }
+  });
+}
+
+// Specify the target element to observe
+const targetElement = document.querySelector('.your-target-element-selector');
+
+// Create an Intersection Observer
+const observer = new IntersectionObserver(handleIntersection, {
+  root: null, // Use the viewport as the root
+  rootMargin: '0px', // No margin
+  threshold: 0.5, // Trigger when at least 50% of the element is in view
+});
+
+// Start observing the target element
+observer.observe(targetElement);
