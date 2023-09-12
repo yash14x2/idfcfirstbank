@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeSlider2() {
     const slider = tns({
-      container: '.bank-card-slider-wapper .cards-wrapper .cards',
+      container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
       loop: false,
       items: 1,
       slideBy: 'page',
