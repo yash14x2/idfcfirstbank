@@ -142,7 +142,6 @@ main .hero img {
 .columns-img-col picture {
     position: absolute;
     top: 0;
-    /*     left: 0%; */
 }
 
 h2#a-world-class-bank-in-india {
@@ -152,14 +151,14 @@ h2#a-world-class-bank-in-india {
     top: 0%;
 }
 
-h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good {
+h3#guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
     color: white;
     position: absolute;
     left: 22.4%;
     top: 26px;
 }
 
-#guided-by-ethics-powered-by-technologyand-a-force-for-social-good code {
+#guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
     font-size: 28px;
 }
 
@@ -381,7 +380,6 @@ main .section.hero-section-wrapper {
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image {
     width: 100px;
     height: 100px;
-    /* object-fit:contain; */
 }
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image img{
@@ -536,7 +534,7 @@ main .section.hero-section-wrapper {
         top: 29px;
         right: 20px;
     }
-    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good code{
+    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good{
         font-size: 16px;
     }
     h2#a-world-class-bank-in-india{
