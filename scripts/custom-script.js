@@ -34,9 +34,9 @@ function initializeSlider() {
     mouseDrag: true,
     lazyload: true,
     responsive: { 
-      768: {
-          items: 1,
-      }
+      // 768: {
+      //     items: 1,
+      // }
   }
   });
 
@@ -65,7 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // You can add more code here to work with the button element if needed
-
 
 
 
