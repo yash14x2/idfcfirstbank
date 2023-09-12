@@ -56,7 +56,7 @@ function initializeSlider2() {
     const slider = tns({
       container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
       loop: false,
-      items: 2,
+      items: 3,
       slideBy: 'page',
       nav: false,
       autoplay: false,
