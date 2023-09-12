@@ -146,25 +146,19 @@ main .hero img {
 
 h2#a-world-class-bank-in-india {
     color: white;
-    /* position: absolute;
-    left: 23%;
-    top: 0%; */
     margin: 0;
 }
 
 h3#guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
     color: white;
-    /* position: absolute;
-    left: 22.4%;
-    top: 26px; */
     margin: 0;
     max-width: 551px;
 }
-.hero-section-wrapper .columns-wrapper .columns-2-cols div:nth-child(2){
+/* .hero-section-wrapper .columns-wrapper .columns-2-cols div:nth-child(2){
     position: absolute;
     right: 65%;
     top: 55px;
-}
+} */
 #guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
     font-size: 28px;
 }
