@@ -70,7 +70,7 @@ if (slider) {
             }
           }
       }
-      var tns = new TinySlider(slider, tnsOptions);
+      var tnsSlider = new TinySlider(slider, tnsOptions);
 }
 
 // function initializeSlider2() {
