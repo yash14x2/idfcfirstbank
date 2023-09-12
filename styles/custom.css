@@ -347,7 +347,7 @@ main .section.hero-section-wrapper {
 
 .cards-card-body {
     background-color: white;
-    padding: 20px;
+    padding:pu 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -425,13 +425,11 @@ main .section.hero-section-wrapper {
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p{
     color: #000;
+    margin: 0px;
 }
 
 .header .nav-wrapper #nav .nav-tools p:last-child{
     display: none;
-}
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
-    background-color: transparent;
 }
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
