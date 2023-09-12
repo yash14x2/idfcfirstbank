@@ -566,8 +566,13 @@ main .section.hero-section-wrapper {
     .hero-section-wrapper .columns-img-col picture{
         top: unset;
         left: -62px;
+        z-index: -1;
     }
     .columns-wrapper:nth-child(2) picture{
         left: unset;
+    }
+    #enjoy-zero-charges-on-28-commonly-used-savings-account-services{
+        font-size: 18px;
+        line-height: 1.3;
     }
 }
