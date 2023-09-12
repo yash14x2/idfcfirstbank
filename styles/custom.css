@@ -416,15 +416,15 @@ main .section.hero-section-wrapper {
     background: #f3dadc;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
+/* .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
     background: transparent;
-}
+} */
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
+/* .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
     background-color: white;
     padding: 0px; 
     box-shadow:none; 
-}
+} */
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body p{
     color: #000;
