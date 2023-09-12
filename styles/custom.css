@@ -430,6 +430,9 @@ main .section.hero-section-wrapper {
 .header .nav-wrapper #nav .nav-tools p:last-child{
     display: none;
 }
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
+    background-color: transparent;
+}
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
