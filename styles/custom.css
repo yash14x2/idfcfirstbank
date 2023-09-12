@@ -437,6 +437,8 @@ main .section.hero-section-wrapper {
 
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
     background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
 }
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
