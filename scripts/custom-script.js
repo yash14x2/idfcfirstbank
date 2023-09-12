@@ -21,25 +21,6 @@ function initializeSlider() {
   }
   });
 
-  const slider2 = tns({
-    container: '.bank-card-slider-wapper .cards-wrapper .cards',
-
-    loop: false,
-    items: 4,
-    slideBy: 'page',
-    nav: false,
-    autoplay: false,
-    speed: 400,
-    autoplayButtonOutput: false,
-    controls: true,
-    mouseDrag: true,
-    lazyload: true,
-    responsive: { 
-      768: {
-          items: 1,
-      }
-  }
-  });
 
   sliderInitialized = true; // Set to true to avoid reinitialization
 
@@ -54,6 +35,45 @@ function initializeSlider() {
   // Change the text inside the button
   Pbutton.textContent = " "; // Replace "New Text" with your desired text
 }
+
+
+function initializeSlider2() {
+    const slider = tns({
+      container: '.bank-card-slider-wapper .cards-wrapper .cards',
+      loop: false,
+      items: 3,
+      slideBy: 'page',
+      nav: false,
+      autoplay: false,
+      speed: 400,
+      autoplayButtonOutput: false,
+      controls: true,
+      mouseDrag: true,
+      lazyload: true,
+      responsive: { 
+        768: {
+            items: 1,
+        }
+    }
+    });
+  
+  
+    sliderInitialized = true; // Set to true to avoid reinitialization
+  
+    // Select the button element with the data-controls attribute set to "next"
+    const Nbutton = document.querySelector('button[data-controls="next"]');
+  
+    // Change the text inside the button
+    Nbutton.textContent = " "; // Replace "New Text" with your desired text
+  
+    const Pbutton = document.querySelector('button[data-controls="prev"]');
+  
+    // Change the text inside the button
+    Pbutton.textContent = " "; // Replace "New Text" with your desired text
+  }
+
+
+
 function navActiveTab(){
   var active = document.querySelector('.nav-sections ul li:first-child');
   active.classList.add('active-tab');
@@ -61,7 +81,7 @@ function navActiveTab(){
 // Delay the initialization of the slider for 2 seconds after the page loads
 document.addEventListener('DOMContentLoaded', function() {
   setTimeout(
-    initializeSlider,
+    initializeSlider2,
      2000); // 2000 milliseconds (2 seconds)
 });
 
