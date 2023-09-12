@@ -132,15 +132,24 @@ if (slider) {
 // Function to initialize and move the carousel
 // Function to initialize and move the carousel
 const prev = document.createElement("button");
-prev.classList.add("prev-button")
+prev.classList.add("prev-button");
+prev.textContent = "Previous"; // Add text to the button
+
 const next = document.createElement("button");
-next.classList.add(".next-button");
+next.classList.add("next-button");
+next.textContent = "Next"; // Add text to the button
+
+// Append the buttons to the document
 document.body.appendChild(prev);
 document.body.appendChild(next);
+
+// Select carousel items
+const carouselItems = document.querySelectorAll('.cards li'); // Get carousel items
+
+// Rest of your code for carousel functionality
 const carousel = document.querySelector('.cards ul');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
-
 
 let currentIndex = 0;
 
