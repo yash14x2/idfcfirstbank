@@ -131,9 +131,14 @@ if (slider) {
 // You can add more code here to work with the button element if needed
 // Function to initialize and move the carousel
 // Function to initialize and move the carousel
+const prev = document.createElement("button");
+prev.classList.add("prev-button")
+const nex = document.createElement("button");
+prev.classList.add(".next-button")
 const carousel = document.querySelector('.cards ul');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
+
 
 let currentIndex = 0;
 
