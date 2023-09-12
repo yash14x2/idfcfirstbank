@@ -111,50 +111,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-const carousel = document.querySelector('.carousel');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
-const carouselItems = document.querySelectorAll('.carousel li');
-const itemWidth = carouselItems[0].clientWidth;
-let currentIndex = 0;
+// Wrap your carousel initialization and movement code in a setTimeout
+setTimeout(function() {
+  const carousel = document.querySelector('.carousel');
+  const prevButton = document.querySelector('.prev-button');
+  const nextButton = document.querySelector('.next-button');
+  const carouselItems = document.querySelectorAll('.carousel li');
+  const itemWidth = carouselItems[0].clientWidth;
+  let currentIndex = 0;
 
-// Function to move the carousel to a specific index
-function moveCarousel(index) {
-  if (index < 0) {
-    currentIndex = 0;
-  } else if (index >= carouselItems.length - 1) {
-    currentIndex = carouselItems.length - 1;
-  } else {
-    currentIndex = index;
+  // Function to move the carousel to a specific index
+  function moveCarousel(index) {
+    if (index < 0) {
+      currentIndex = 0;
+    } else if (index >= carouselItems.length - 1) {
+      currentIndex = carouselItems.length - 1;
+    } else {
+      currentIndex = index;
+    }
+
+    const translateX = -currentIndex * itemWidth;
+    carousel.style.transform = `translateX(${translateX}px)`;
   }
 
-  const translateX = -currentIndex * itemWidth;
-  carousel.style.transform = `translateX(${translateX}px)`;
-}
+  // Event listener for the previous button
+  prevButton.addEventListener('click', () => {
+    moveCarousel(currentIndex - 1);
+  });
 
-// Event listener for the previous button
-prevButton.addEventListener('click', () => {
-  moveCarousel(currentIndex - 1);
-});
+  // Event listener for the next button
+  nextButton.addEventListener('click', () => {
+    moveCarousel(currentIndex + 1);
+  });
 
-// Event listener for the next button
-nextButton.addEventListener('click', () => {
-  moveCarousel(currentIndex + 1);
-});
-
-// Initial positioning
-moveCarousel(currentIndex);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // Initial positioning
+  moveCarousel(currentIndex);
+}, 2000); // 2000 milliseconds (2 seconds) delay
