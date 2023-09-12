@@ -372,6 +372,7 @@ main .section.hero-section-wrapper {
     margin-top: 0em;
     margin-bottom: 0em;
     font-size: 18px;
+    padding: 5px 0px 16px 0px;
 }
 
 .section.bank-card-slider-wapper .button-container .button.primary {
