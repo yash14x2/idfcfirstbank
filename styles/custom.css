@@ -154,18 +154,21 @@ h3#guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
     margin: 0;
     max-width: 551px;
 }
+
 /* .hero-section-wrapper .columns-wrapper .columns-2-cols div:nth-child(2){
     position: absolute;
     right: 65%;
     top: 55px;
 } */
-#guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
+#guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
     font-size: 28px;
 }
-#enjoy-zero-charges-on-28-commonly-used-savings-account-services{
+
+#enjoy-zero-charges-on-28-commonly-used-savings-account-services {
     position: relative;
     color: var(--white);
 }
+
 main .section.secondary-nav-section-wrapper {
     font-size: 14px;
     height: 45px;
@@ -347,7 +350,7 @@ main .section.hero-section-wrapper {
 
 .cards-card-body {
     background-color: white;
-    padding:pu 20px;
+    padding: pu 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -389,31 +392,32 @@ main .section.hero-section-wrapper {
     align-items: center;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image img{
-    object-fit:contain;
-   
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image img {
+    object-fit: contain;
+
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li {
     width: 100%;
     height: 100%;
     z-index: 1;
     border-radius: 20px;
     background: transparent;
 }
-.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(1){
+
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(1) {
     background: #F3DADC;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(2){
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(2) {
     background: #e8ecf9;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(3){
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(3) {
     background: #fff7e8;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(4){
+.bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(4) {
     background: #f3dadc;
 }
 
@@ -421,66 +425,66 @@ main .section.hero-section-wrapper {
     background: transparent;
 } */
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
     background-color: white;
-    padding: 0px; 
-    box-shadow:none; 
+    padding: 0px;
+    box-shadow: none;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body p{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body p {
     color: #9B1E26;
     margin: 0px;
     font-size: 24px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body p:nth-child(2){
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body p:nth-child(2) {
     color: #000;
     font-size: 14px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body p{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body p {
     color: #1948aa;
     margin: 0px;
     font-size: 24px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body p:nth-child(2){
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body p:nth-child(2) {
     color: #000;
     font-size: 14px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body p{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body p {
     color: #d09f41;
     margin: 0px;
     font-size: 24px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body p:nth-child(2){
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body p:nth-child(2) {
     color: #000;
     font-size: 14px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(4) .cards-card-body p{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(4) .cards-card-body p {
     color: #9B1E26;
     margin: 0px;
     font-size: 24px;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(4) .cards-card-body p:nth-child(2){
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(4) .cards-card-body p:nth-child(2) {
     color: #000;
     font-size: 14px;
 }
 
 
-.header .nav-wrapper #nav .nav-tools p:last-child{
+.header .nav-wrapper #nav .nav-tools p:last-child {
     display: none;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
     background-color: transparent;
 }
 
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li{
+.bank-card-slider-wapper .cards-wrapper .cards.block ul li {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -594,35 +598,54 @@ main .section.hero-section-wrapper {
         top: 29px;
         right: 20px;
     }
-    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good{
+
+    h3#guided-by-ethics-powered-by-technologyand-a-force-for-social-good {
         font-size: 16px;
     }
-    h2#a-world-class-bank-in-india{
+
+    h2#a-world-class-bank-in-india {
         font-size: 20px;
         line-height: 1.2;
     }
-    .header .nav-wrapper #nav .nav-tools p:last-child{
+
+    .header .nav-wrapper #nav .nav-tools p:last-child {
         display: block;
     }
-    header nav[aria-expanded="false"] .nav-tools{
+
+    header nav[aria-expanded="false"] .nav-tools {
         display: flex;
     }
-    #guided-by-ethics-powered-by-technology-and-a-force-for-social-good{
+
+    #guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
         font-size: 16px;
     }
-    .hero-section-wrapper .columns-img-col picture{
+
+    .hero-section-wrapper .columns-img-col picture {
         top: unset;
         left: -62px;
         z-index: -1;
     }
-    .columns-wrapper:nth-child(2) picture{
+
+    .columns-wrapper:nth-child(2) picture {
         left: unset;
     }
-    #enjoy-zero-charges-on-28-commonly-used-savings-account-services{
+
+    #enjoy-zero-charges-on-28-commonly-used-savings-account-services {
         font-size: 18px;
         line-height: 1.3;
     }
-    main .section.hero-section-wrapper{
+
+    main .section.hero-section-wrapper {
         padding: 50px 15px;
+    }
+
+    .hero-section-wrapper .columns-wrapper .columns div:nth-child(2) {
+        max-width: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        position: relative;
+        left: 41%;
     }
 }
