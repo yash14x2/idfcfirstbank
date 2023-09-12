@@ -670,7 +670,7 @@ main .section.hero-section-wrapper {
 .cards-wrapper {
   overflow: hidden; /* Hide overflowing content */
   position: relative;
-  width: 31%; /* Adjust the width as needed */
+  width: 100%; /* Adjust the width as needed */
 }
 
 .cards ul {
