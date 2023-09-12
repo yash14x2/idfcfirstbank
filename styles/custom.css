@@ -668,38 +668,23 @@ main .section.hero-section-wrapper {
 
 /* Set the width and hide overflowing content */
 .cards-wrapper {
-  overflow: hidden;
+  overflow: hidden; /* Hide overflowing content */
   position: relative;
+  width: 100%; /* Adjust the width as needed */
 }
 
-.carousel {
-  display: flex; /* Display list items in a row */
-  width: 100%; /* Ensure full width */
-  transition: transform 0.3s ease; /* Smooth sliding transition */
+.cards ul {
+  display: flex; /* Display <li> items in a row */
+  transition: transform 0.5s ease; /* Add smooth transition */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style: none; /* Remove list bullet points */
 }
 
-.carousel li {
-  flex: 0 0 100%; /* Make each item take full width */
-  margin-right: 10px; /* Add spacing between items */
-  list-style: none; /* Remove default list styles */
+.cards li {
+  flex: 0 0 auto; /* Prevent <li> items from growing */
+  margin-right: 16px; /* Adjust spacing between items */
+  /* Add other styling for each <li> item */
 }
 
-/* Style for the previous and next buttons */
-.carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.prev-button {
-  left: 0;
-}
-
-.next-button {
-  right: 0;
-}
+/* Optionally, you can add styles for navigation buttons */
