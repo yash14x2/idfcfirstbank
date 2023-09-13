@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // You can add more code here to work with the button element if needed
 // Function to initialize and move the carousel
 // Wrap your carousel initialization code in a function
+// Wrap your carousel initialization code in a function
 function initializeCarousel() {
   const carouselWrapper = document.querySelector('.cards-wrapper');
   const carousel = carouselWrapper.querySelector('ul');
@@ -133,6 +134,10 @@ function initializeCarousel() {
     const itemWidth = carousel.clientWidth / itemsPerPage;
     const translateX = -currentIndex * itemWidth;
     carousel.style.transform = `translateX(${translateX}px)`;
+
+    // Adjust the width of the carousel container
+    const itemsRemaining = carousel.children.length - currentIndex;
+    carousel.style.width = `${itemsRemaining * itemWidth}px`;
   }
 
   // Event listener for the previous button
