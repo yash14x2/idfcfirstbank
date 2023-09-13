@@ -67,6 +67,7 @@ header nav .nav-sections>ul>li>ul::before {
     background-color: var(--black);
     border-radius: 0;
     color: var(--white);
+    z-index: -1;
 }
 
 header nav .nav-brand img {
@@ -320,7 +321,7 @@ main .section.hero-section-wrapper {
 
 .tns-outer#tns1-ow {
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .tns-outer#tns1-ow .tns-controls {
@@ -344,7 +345,7 @@ main .section.hero-section-wrapper {
 .section.secondary-nav-section-wrapper {
     position: sticky;
     top: 64px;
-    z-index: 100;
+    z-index: 1;
     background-color: #fff;
 }
 
