@@ -778,6 +778,9 @@ main .section.hero-section-wrapper {
     .get-more-from-bank-wapper .default-content-wrapper h2#get-more-from-your-bank{
         font-size: 20px;
     }
+    .section.get-more-from-bank-wapper{
+        margin: 20px 15px;
+    }
 }
 
 /* Set the width and hide overflowing content */
