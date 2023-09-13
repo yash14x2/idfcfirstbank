@@ -522,6 +522,10 @@ main .section.hero-section-wrapper {
 }
 .get-more-from-bank-wapper .cards-wrapper .cards ul li {
     flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 20px;
 }
 /* get mpre from bank css end */
 
