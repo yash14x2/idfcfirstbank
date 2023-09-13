@@ -526,6 +526,7 @@ main .section.hero-section-wrapper {
     align-items: center;
     flex-direction: row-reverse;
     border-radius: 20px;
+    height: 100%;
 }
 /* get mpre from bank css end */
 
