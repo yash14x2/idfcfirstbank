@@ -520,6 +520,9 @@ main .section.hero-section-wrapper {
     font-size: 23px;
     margin: 0;
 }
+.get-more-from-bank-wapper .cards-wrapper .cards ul li {
+    flex: 1;
+}
 /* get mpre from bank css end */
 
 @media screen and (min-width:900px) {
