@@ -819,3 +819,10 @@ max-width: 1230px;
     list-style: none;
 
 }
+
+.customer-speak .cards-wrapper .cards block ul li{
+    width: 275.75px;
+    margin-right: 14px;
+
+
+}
