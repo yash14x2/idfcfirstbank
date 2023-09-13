@@ -51,28 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
    
      2000); // 2000 milliseconds (2 seconds)
 });
-var slider = document.querySelector(".bank-card-slider-wapper .cards-wrapper .cards.block ul");
-if (slider) {
-  var tnsOptions = {
-          loop: false,
-          items: 3,
-          slideBy: 'page',
-          nav: false,
-          autoplay: false,
-          speed: 400,
-          autoplayButtonOutput: false,
-          controls: true,
-          mouseDrag: true,
-          lazyload: true,
-          responsive: { 
-            768: {
-              items: 1,
-            }
-          }
-      }
-      var tnsSlider = new TinySlider(slider, tnsOptions);
-}
-
 // function initializeSlider2() {
 //     const slider = tns({
 //       container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
