@@ -587,6 +587,8 @@ main .section.hero-section-wrapper {
     text-align: center;
     background-color: transparent;
     margin: 0;
+    font-weight: 600;
+    font-size: 16px
 }
 /* get mpre from bank css end */
 
