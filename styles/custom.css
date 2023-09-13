@@ -690,6 +690,7 @@ main .section.hero-section-wrapper {
 
 .cards li {
   flex: 0 0 auto; /* Prevent <li> items from growing */
+      margin-right: 16px; /* Adjust spacing between items */
   
   /* Add other styling for each <li> item */
 
