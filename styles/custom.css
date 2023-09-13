@@ -514,6 +514,12 @@ main .section.hero-section-wrapper {
     max-width: 1230px;
     margin: 32px auto;
 }
+.get-more-from-bank-wapper .default-content-wrapper h2#get-more-from-your-bank{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 0;
+}
 /* get mpre from bank css end */
 
 @media screen and (min-width:900px) {
