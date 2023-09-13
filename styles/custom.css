@@ -566,13 +566,13 @@ main .section.hero-section-wrapper {
 .get-more-from-bank-wapper .cards-wrapper .cards ul li:nth-child(3){
     background-color: var(--light-orange);
 }
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body:first-child {
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body:first-child p {
     color: #9B1E26;
 }
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body:first-child {
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(2) .cards-card-body:first-child p{
     color: #1948aa
 }
-.bank-card-slider-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body:first-child {
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body:first-child p{
     color: #d09f41;
 }
 
