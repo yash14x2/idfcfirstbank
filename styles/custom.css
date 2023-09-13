@@ -832,16 +832,11 @@ max-width: 1230px;
 .customer-speak .cards-wrapper .cards ul li{
     width: 275.75px;
     margin-right: 14px;
-
-
-}
-
-.customer-speak .cards-wrapper .cards ul li .cards-card-body {
-border-radius: 20px;
+    border-radius: 20px;
     padding: 20px;
     color: #464646;
     font-size: 14px;
 
 
-
 }
+
