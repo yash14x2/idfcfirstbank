@@ -111,8 +111,24 @@ document.addEventListener('DOMContentLoaded', function() {
 // Wrap your carousel initialization code in a function
 // Wrap your carousel initialization code in a function
 function initializeCarousel() {
-  const carouselWrapper = document.querySelector('.bank-card-slider-wapper .cards-wrapper');
-  const carousel = carouselWrapper.querySelector('.bank-card-slider-wapper .cards-wrapper .cards block ul');
+  // Select the carousel wrapper
+  const carouselWrapper = document.querySelector('.bank-card-slider-wrapper .cards-wrapper');
+  
+  // Check if the carousel wrapper is found
+  if (!carouselWrapper) {
+    console.error("Carousel wrapper not found.");
+    return;
+  }
+  
+  // Select the carousel (ul element) inside the carousel wrapper
+  const carousel = carouselWrapper.querySelector('.cards block ul');
+  
+  // Check if the carousel is found
+  if (!carousel) {
+    console.error("Carousel not found.");
+    return;
+  }
+
   const prevButton = document.createElement("button");
   const nextButton = document.createElement("button");
 
