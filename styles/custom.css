@@ -581,6 +581,12 @@ main .section.hero-section-wrapper {
     align-items: center;
     justify-content: center;
     color: var(--white);
+    margin: 0;
+}
+.section.get-more-from-bank-wapper .button-container .button.primary{
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
 }
 /* get mpre from bank css end */
 
