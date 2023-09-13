@@ -535,6 +535,9 @@ main .section.hero-section-wrapper {
     color: #000;
     font-size: 14px;
 }
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li .cards-card-body{
+    background-color: transparent;
+}
 /* get mpre from bank css end */
 
 @media screen and (min-width:900px) {
