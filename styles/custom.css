@@ -860,3 +860,9 @@ max-width: 1230px;
 font-size : 14px;
 
 }
+h2#get-more-from-your-bank {
+color: #FFFFFF;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 0;
+}
