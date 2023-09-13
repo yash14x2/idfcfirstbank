@@ -839,6 +839,7 @@ max-width: 1230px;
     padding: 0;
     margin: 0;
     list-style: none;
+        margin-top: 16px;
 
 }
 
@@ -865,4 +866,10 @@ color: #FFFFFF;
     font-weight: 500;
     font-size: 23px;
     margin: 0;
+}
+.customer-speak .default-content-wrapper .button-container a {
+
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
 }
