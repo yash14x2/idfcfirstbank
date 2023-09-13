@@ -805,3 +805,11 @@ max-width: 1230px;
 
 
 }
+
+.customer-speak .cards-wrapper .cards block ul{
+        transition: transform 0.5s ease;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
