@@ -542,6 +542,14 @@ main .section.hero-section-wrapper {
     background-color: transparent;
     box-shadow: none;
 }
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li .cards-card-image {
+    display: flex;
+    flex: 0 0 100px;
+    height: auto;
+}
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li .cards-card-image picture img{
+    object-fit: contain;
+}
 /* get mpre from bank css end */
 
 @media screen and (min-width:900px) {
