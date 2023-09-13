@@ -134,10 +134,6 @@ function initializeCarousel() {
     const itemWidth = carousel.clientWidth / itemsPerPage;
     const translateX = -currentIndex * itemWidth;
     carousel.style.transform = `translateX(${translateX}px)`;
-
-    // Adjust the width of the carousel container
-    const itemsRemaining = carousel.children.length - currentIndex;
-    carousel.style.width = `${itemsRemaining * itemWidth}px`;
   }
 
   // Event listener for the previous button
