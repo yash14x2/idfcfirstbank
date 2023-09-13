@@ -812,7 +812,7 @@ max-width: 1230px;
 
 }
 
-.customer-speak .cards-wrapper .cards block ul{
+.customer-speak .cards-wrapper .cards  ul{
         transition: transform 0.5s ease;
     padding: 0;
     margin: 0;
@@ -820,7 +820,7 @@ max-width: 1230px;
 
 }
 
-.customer-speak .cards-wrapper .cards block ul li{
+.customer-speak .cards-wrapper .cards ul li{
     width: 275.75px;
     margin-right: 14px;
 
