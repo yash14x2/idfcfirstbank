@@ -856,4 +856,7 @@ max-width: 1230px;
      box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 
 }
+.customer-speak .cards-wrapper .cards ul li .cards-card-body p:nth-child(2) code{
+font-size : 14px;
 
+}
