@@ -769,6 +769,9 @@ main .section.hero-section-wrapper {
     .get-more-from-bank-wapper .cards-wrapper .cards ul li{
         margin: 0;
     }
+    .get-more-from-bank-wapper .cards-wrapper .cards ul li .cards-card-body p strong{
+        font-size: 18px;
+    }
 }
 
 /* Set the width and hide overflowing content */
