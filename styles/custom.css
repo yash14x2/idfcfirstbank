@@ -590,6 +590,16 @@ main .section.hero-section-wrapper {
     font-weight: 600;
     font-size: 16px
 }
+.section.get-more-from-bank-wapper .default-content-wrapper .button-container .button.primary::after {
+    content: "";
+    border: solid var(--white);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 5px;
+}
 /* get mpre from bank css end */
 
 @media screen and (min-width:900px) {
