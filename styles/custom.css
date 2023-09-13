@@ -47,7 +47,12 @@ header nav .nav-sections .nav-drop::after {
     color: var(--idfc-red);
     top: 7px;
 }
-
+.header .nav-wrapper nav .nav-sections:nth-child(3) ul li{
+    margin-right: 10px;
+}
+.header .nav-wrapper nav .nav-sections:nth-child(3) ul li:last-child{
+    margin-right: 0;
+}
 .section.hero-section-wrapper {
     background: linear-gradient(94.07deg, #9B1E26 -17.35%, #000000 83.2%);
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
@@ -156,11 +161,6 @@ h3#guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
     max-width: 551px;
 }
 
-/* .hero-section-wrapper .columns-wrapper .columns-2-cols div:nth-child(2){
-    position: absolute;
-    right: 65%;
-    top: 55px;
-} */
 #guided-by-ethics-powered-by-technology-and-a-force-for-social-good {
     font-size: 28px;
 }
