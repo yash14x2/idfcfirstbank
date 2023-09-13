@@ -610,6 +610,7 @@ main .section.hero-section-wrapper {
     background: #FFF4E0 url(https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/homepage/icons/spotlight-stars.png) no-repeat;
     background-position: 230px 22px;
     max-width: 1230px;
+    margin: 0 auto;
 }
 /* in the spotlight section css end */
 
