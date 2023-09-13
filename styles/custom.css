@@ -537,6 +537,7 @@ main .section.hero-section-wrapper {
 }
 .get-more-from-bank-wapper .cards-wrapper .cards.block ul li .cards-card-body{
     background-color: transparent;
+    box-shadow: none;
 }
 /* get mpre from bank css end */
 
