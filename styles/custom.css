@@ -522,6 +522,7 @@ main .section.hero-section-wrapper {
 }
 .get-more-from-bank-wapper .cards-wrapper .cards ul{
     height: 100%;
+    margin-top: 16px;
 }
 .get-more-from-bank-wapper .cards-wrapper .cards ul li {
     flex: 1;
