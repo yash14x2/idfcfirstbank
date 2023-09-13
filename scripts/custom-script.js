@@ -111,8 +111,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // Wrap your carousel initialization code in a function
 // Wrap your carousel initialization code in a function
 function initializeCarousel() {
-  const carouselWrapper = document.querySelector('.cards-wrapper');
-  const carousel = carouselWrapper.querySelector('ul');
+  const carouselWrapper = document.querySelector('.bank-card-slider-wapper .cards-wrapper');
+  const carousel = carouselWrapper.querySelector('.bank-card-slider-wapper .cards-wrapper .cards block ul');
   const prevButton = document.createElement("button");
   const nextButton = document.createElement("button");
 
