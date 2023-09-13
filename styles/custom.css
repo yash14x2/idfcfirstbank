@@ -3,6 +3,7 @@
     --idfc-red: #DA3442;
     --white: #fff;
     --light-white: #f2f2f2;
+    --baby-pink:#F3DADC
 }
 
 .nav-wrapper {
@@ -553,6 +554,9 @@ main .section.hero-section-wrapper {
 }
 .get-more-from-bank-wapper .cards-wrapper .cards.block ul li .cards-card-image picture img{
     object-fit: contain;
+}
+.get-more-from-bank-wapper .cards-wrapper .cards ul li:nth-child(1){
+    background-color: var(--baby-pink);
 }
 /* get mpre from bank css end */
 
