@@ -766,6 +766,9 @@ main .section.hero-section-wrapper {
     .get-more-from-bank-wapper .cards-wrapper .cards ul{
         flex-direction: column;
     }
+    .get-more-from-bank-wapper .cards-wrapper .cards ul li{
+        margin: 0;
+    }
 }
 
 /* Set the width and hide overflowing content */
