@@ -575,7 +575,13 @@ main .section.hero-section-wrapper {
 .get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body p:nth-child(1) {
     color: #d09f41;
 }
-
+.section.get-more-from-bank-wapper .default-content-wrapper .button-container{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
 /* get mpre from bank css end */
 
 @media screen and (min-width:900px) {
