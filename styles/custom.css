@@ -781,6 +781,9 @@ main .section.hero-section-wrapper {
     .section.get-more-from-bank-wapper{
         margin: 20px 15px;
     }
+    .section.get-more-from-bank-wapper .button-container .button.primary{
+        font-size: 12px;
+    }
 }
 
 /* Set the width and hide overflowing content */
