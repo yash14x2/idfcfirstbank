@@ -509,7 +509,7 @@ main .section.hero-section-wrapper {
     white-space: normal;
 }
 
-/* get mpre from bank css start */
+/* get more from bank css start */
 .section.get-more-from-bank-wapper{
     background: #9B1E26;
     border-radius: 24px;
@@ -600,7 +600,7 @@ main .section.hero-section-wrapper {
     -webkit-transform: rotate(-45deg);
     margin-left: 5px;
 }
-/* get mpre from bank css end */
+/* get more from bank css end */
 
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
