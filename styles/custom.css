@@ -3,7 +3,9 @@
     --idfc-red: #DA3442;
     --white: #fff;
     --light-white: #f2f2f2;
-    --baby-pink:#F3DADC
+    --baby-pink:#F3DADC;
+    --sky-blue:#E8ECF9;
+    --light-orange:#FFF7E8;
 }
 
 .nav-wrapper {
@@ -557,6 +559,12 @@ main .section.hero-section-wrapper {
 }
 .get-more-from-bank-wapper .cards-wrapper .cards ul li:nth-child(1){
     background-color: var(--baby-pink);
+}
+.get-more-from-bank-wapper .cards-wrapper .cards ul li:nth-child(2){
+    background-color: var(--sky-blue);
+}
+.get-more-from-bank-wapper .cards-wrapper .cards ul li:nth-child(3){
+    background-color: var(--light-orange);
 }
 /* get mpre from bank css end */
 
