@@ -438,11 +438,6 @@ main .section.hero-section-wrapper {
 .bank-card-slider-wapper .cards-wrapper .cards ul li:nth-child(4) {
     background: #f3dadc;
 }
-
-/* .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
-    background: transparent;
-} */
-
 .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-body {
     background-color: white;
     padding: 0px;
@@ -510,6 +505,17 @@ main .section.hero-section-wrapper {
 .tns-horizontal.tns-subpixel{
     white-space: normal;
 }
+
+/* get mpre from bank css start */
+.get-more-from-bank-wapper{
+    background: var(--idfc-red);
+    border-radius: 24px;
+    padding: 24px 15px 15px 15px;
+    max-width: 1230px;
+    margin: 32px auto;
+}
+/* get mpre from bank css end */
+
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
