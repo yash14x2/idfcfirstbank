@@ -50,7 +50,7 @@ header nav .nav-sections .nav-drop::after {
 .header .nav-wrapper nav .nav-sections:nth-child(3) ul li{
     margin-right: 10px;
 }
-.header .nav-wrapper nav .nav-sections:nth-child(1) ul li{
+.header .nav-wrapper nav .nav-sections:first-child ul li{
     margin-right: 0;
 }
 .header .nav-wrapper nav .nav-sections:nth-child(3) ul li:last-child{
