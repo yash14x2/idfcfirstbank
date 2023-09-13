@@ -675,26 +675,25 @@ main .section.hero-section-wrapper {
 
 /* Set the width and hide overflowing content */
 .cards-wrapper {
-  overflow: hidden;
+  overflow: hidden; /* Hide overflowing content */
   position: relative;
-  width: 100%;
+  width: 100%; /* Adjust the width as needed */
 }
 
 .cards ul {
-  display: flex;
-  transition: transform 0.5s ease;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  min-width: calc(100% * 4); /* Set a minimum width to ensure first 3 items are always visible */
-  overflow: hidden; /* Hide overflowing content */
+  display: flex; /* Display <li> items in a row */
+  transition: transform 0.5s ease; /* Add a smooth transition */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style: none; /* Remove list bullet points */
 }
 
 .cards li {
-  flex: 0 0 auto;
-  /* margin-right: 16px; Remove this line to eliminate spacing between items */
+  flex: 0 0 auto; /* Prevent <li> items from growing */
+  
+  /* Add other styling for each <li> item */
+
+  /* Remove margin for the last <li> element */
 }
 
 /* Optionally, you can add styles for navigation buttons */
-
-
