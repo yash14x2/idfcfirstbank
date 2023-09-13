@@ -697,3 +697,6 @@ main .section.hero-section-wrapper {
 }
 
 /* Optionally, you can add styles for navigation buttons */
+.cards li:last-child {
+  margin-right: 0; /* Remove margin for the last <li> element */
+}
