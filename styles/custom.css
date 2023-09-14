@@ -660,6 +660,10 @@ main .section.hero-section-wrapper {
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-image img{
     object-fit: contain;
+    display: flex;
+    flex: 0 0 100px;
+    height: auto;
+    width: 100%;
 }
 /* in the spotlight section css end */
 
