@@ -619,6 +619,11 @@ main .section.hero-section-wrapper {
     color: var(--black);
     margin: 0;
 }
+.in-the-spotlight-wrapper .default-content-wrapper p{
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
 /* in the spotlight section css end */
 
 
