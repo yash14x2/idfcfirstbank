@@ -612,6 +612,12 @@ main .section.hero-section-wrapper {
     max-width: 1230px;
     margin: 0 auto;
 }
+.in-the-spotlight-wrapper .default-content-wrapper h2#in-the-spotlight{
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: var(--black);
+}
 /* in the spotlight section css end */
 
 
