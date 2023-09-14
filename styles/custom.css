@@ -952,3 +952,12 @@ h3#get-in-touch-with-us {
 
 }
 
+footer-columns{
+  max-width: 1426px;
+  margin: auto;
+}
+
+
+.footer-columns .columns-wrapper .columns pre{
+  overflow : hidden
+}
