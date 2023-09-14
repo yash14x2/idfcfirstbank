@@ -879,7 +879,7 @@ color: #FFFFFF;
   background-color: transparent;
   margin: 0;
 }
-.customer-speak .cards-wrapper .cards ul li .cards-card-body p:nth-child(2) {
+.customer-speak .default-content-wrapper .button-container {
     
     text-align: center;
 
