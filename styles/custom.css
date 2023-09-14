@@ -661,6 +661,10 @@ main .section.hero-section-wrapper {
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-image img{
     object-fit: contain;
 }
+
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li :nth-child(1) .cards-card-body p:nth-child(1) {
+    margin: 0px;
+}
 /* in the spotlight section css end */
 
 
