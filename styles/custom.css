@@ -994,3 +994,8 @@ overflow : hidden
 gap : 0;
 
 }
+
+.footer-columns .columns-wrapper .columns pre {
+  background-color: transparent;
+}
+
