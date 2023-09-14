@@ -861,6 +861,8 @@ max-width: 1230px;
     margin: 0;
     list-style: none;
         margin-top: 16px;
+justify-content: space-between;
+
 
 }
 
@@ -923,5 +925,6 @@ padding: 15px 32px;
 }
 .getin-touch .cards-wrapper .cards ul li .cards-card-body{
   box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+padding-top: 20px;
 
 }
