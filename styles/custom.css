@@ -663,7 +663,7 @@ main .section.hero-section-wrapper {
 }
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li :nth-child(1) .cards-card-body p:nth-child(1) {
-    margin: 0px;
+    margin-bottom: 0px;
 }
 /* in the spotlight section css end */
 
