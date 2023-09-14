@@ -667,7 +667,6 @@ main .section.hero-section-wrapper {
 }
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-body p:nth-child(2) {
-    margin-top: 0px;
     margin-bottom: 0px;
 }
 /* in the spotlight section css end */
@@ -989,4 +988,8 @@ max-width: 1426px;
 
 .footer-columns .columns-wrapper .columns pre{
 overflow : hidden
+}
+.columns-wrapper:nth-child(1) div{
+gap : 0;
+
 }
