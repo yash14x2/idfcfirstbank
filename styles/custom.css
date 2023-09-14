@@ -642,7 +642,7 @@ main .section.hero-section-wrapper {
     background: transparent;
 }
 
-.in-the-spotlight-wrapper .cards-wrapper .cards ul:nth-child(1){
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(1){
     background-color: #CE623E;
 }
 /* in the spotlight section css end */
