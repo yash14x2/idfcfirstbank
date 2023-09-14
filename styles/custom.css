@@ -624,6 +624,15 @@ main .section.hero-section-wrapper {
     margin-bottom: 16px;
     font-size: 18px;
 }
+.in-the-spotlight-wrapper .cards-wrapper .cards ul{
+    height: 100%;
+}
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
 /* in the spotlight section css end */
 
 
