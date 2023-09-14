@@ -982,7 +982,10 @@ padding: 8px 32px;
 }
 
 .section.footer-columns.columns-container{
-max-width: 1426px;
+max-width: 1426px;  
+background: #9D1D27;
+    color: white;
+    font-size: 14px;
 
 }
 
