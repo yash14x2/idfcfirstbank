@@ -632,6 +632,12 @@ main .section.hero-section-wrapper {
     display: flex;
     align-items: center;
     border-radius: 20px;
+    padding: 10px;
+}
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-body {
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--white);
 }
 /* in the spotlight section css end */
 
