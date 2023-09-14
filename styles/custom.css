@@ -915,3 +915,9 @@ padding: 15px 32px;
 width: 86%;
  
 }
+
+
+.getin-touch .cards-wrapper .cards ul li {
+
+  border : 0px;
+}
