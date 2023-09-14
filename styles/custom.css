@@ -639,6 +639,7 @@ main .section.hero-section-wrapper {
   line-height: 22px;
   color: var(--black);
   box-shadow: none;
+  background-color: transparent;
 }
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(1){
