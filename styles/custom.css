@@ -641,6 +641,10 @@ main .section.hero-section-wrapper {
   box-shadow: none;
 }
 
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(1){
+    background-color: #CE623E;
+}
+
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(2){
     background-color: #1948aa;
 }
