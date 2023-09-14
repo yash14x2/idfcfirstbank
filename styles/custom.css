@@ -938,4 +938,9 @@ h3#get-in-touch-with-us {
   font-size: 26px;
     font-weight: 200;
 }
+.section .getin-touch .cards-container{
+  padding: 8px 32px;
+    padding-bottom: 36px;
+
+}
 
