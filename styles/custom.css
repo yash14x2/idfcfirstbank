@@ -868,6 +868,8 @@ max-width: 1230px;
     list-style: none;
         margin-top: 16px;
 
+
+
 }
 
 .customer-speak .cards-wrapper .cards ul li{
@@ -911,3 +913,40 @@ color: #FFFFFF;
 .section.customer-speak.cards-container{
 padding: 15px 32px;
 }
+.getin-touch .cards-wrapper .cards ul li {
+  display : flex;
+}
+
+
+.getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
+     height: 110px;
+    width: 110px;
+ 
+}
+
+
+.getin-touch .cards-wrapper .cards ul li {
+
+  border : 0px;
+}
+.getin-touch .cards-wrapper .cards ul li .cards-card-body{
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+padding-top: 20px;
+
+}
+
+.getin-touch .cards-wrapper .cards ul{
+  justify-content: space-between;
+
+}
+
+h3#get-in-touch-with-us {
+  font-size: 26px;
+    font-weight: 200;
+}
+.section.getin-touch.cards-container{
+  padding: 8px 32px;
+    padding-bottom: 36px;
+
+}
+
