@@ -1082,5 +1082,8 @@ h3#get-in-touch-with-us {
     .section.get-more-from-bank-wapper .button-container .button.primary {
         font-size: 12px;
     }
+    .section.in-the-spotlight-wrapper{
+        margin: 20px 15px;
+    }
    
 }
