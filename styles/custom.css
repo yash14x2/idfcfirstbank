@@ -988,7 +988,7 @@ padding: 8px 32px;
 }
 
 .section.footer-columns.columns-container{
-max-width: 1426px;  
+max-width: 1455px;  
 background: #9D1D27;
     color: white;
     font-size: 14px;
@@ -1008,3 +1008,12 @@ gap : 0;
   background-color: transparent;
 }
 
+.footer-columns .columns-wrapper .columns div table tbody tr{
+  display : flex;
+  justify-content : space-between
+}
+
+
+.footer-columns .columns-wrapper .columns div table tbody tr td{
+  max-width : 120px;
+}
