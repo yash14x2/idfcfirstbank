@@ -1142,10 +1142,12 @@ h2#hear-from-our-happy-customers {
 }
 
 
-.footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(2){
+.footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(2) picture{
 
   display: flex;
+  position: relative;
 }
+
 
 .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(2) picture{
 
