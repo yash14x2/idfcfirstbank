@@ -1045,6 +1045,12 @@ h3#get-in-touch-with-us {
     .section.bank-card-slider-wapper{
         margin: 20px 15px;
     }
+    .section.bank-card-slider-wapper .default-content-wrapper #ways-to-bank{
+        font-size: 20px;
+    }
+    .section.bank-card-slider-wapper .default-content-wrapper p{
+        font-size: 14px;
+    }
     .section.bank-card-slider-wapper .button-container .button.primary{
         font-size: 12px;
     }
