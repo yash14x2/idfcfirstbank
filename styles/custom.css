@@ -1095,4 +1095,7 @@ h3#get-in-touch-with-us {
     .in-the-spotlight-wrapper .cards-wrapper .cards ul{
         flex-direction: column;
     }
+    .in-the-spotlight-wrapper .cards-wrapper .cards ul li{
+        margin-right: 0;
+    }
 }
