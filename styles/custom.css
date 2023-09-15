@@ -857,12 +857,18 @@ h3#get-in-touch-with-us {
 .footer-columns .columns-wrapper .columns div table tbody tr td {
     max-width: 120px;
 }
+<<<<<<< Updated upstream
 
 .footer-columns .columns-wrapper .columns div:nth-child(3) div{
   margin-bottom: 11.9%;
 
 }
 
+=======
+.footer-wrapper{
+    display: none;
+}
+>>>>>>> Stashed changes
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
@@ -1033,6 +1039,11 @@ h3#get-in-touch-with-us {
 
     .bank-card-slider-wapper .cards-wrapper .cards.block ul li {
         width: 100%;
+    }
+    .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image{
+        flex: 0 0 70px;
+        width: auto;
+        height: auto;
     }
     .section.bank-card-slider-wapper .button-container .button.primary{
         font-size: 12px;
