@@ -747,7 +747,7 @@ main .section.hero-section-wrapper {
 }
 
 /* Optionally, you can add styles for navigation buttons */
-.customer-speak {
+.section.customer-speak {
     background: #9B1E26;
     border-radius: 24px;
     padding: 24px 0 15px 15px;
@@ -755,7 +755,7 @@ main .section.hero-section-wrapper {
     max-width: 1230px;
 }
 
-.customer-speak .cards-wrapper .cards ul {
+.section.customer-speak .cards-wrapper .cards ul {
     transition: transform 0.5s ease;
     padding: 0;
     margin: 0;
