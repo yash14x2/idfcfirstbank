@@ -863,7 +863,10 @@ h2#hear-from-our-happy-customers {
 .columns-wrapper:nth-child(1) div {
     gap: 0;
 }
+.footer-columns .columns-wrapper .columns div:nth-child(3) div{
+  margin-bottom: 11.9%;
 
+}
 .footer-columns .columns-wrapper .columns pre {
     background-color: transparent;
 }
@@ -877,10 +880,7 @@ h2#hear-from-our-happy-customers {
     max-width: 120px;
 }
 
-.footer-columns .columns-wrapper .columns div:nth-child(3) div{
-  margin-bottom: 11.9%;
 
-}
 .footer-wrapper{
     display: none;
 }
