@@ -1165,3 +1165,13 @@ h2#hear-from-our-happy-customers {
   display: flex;
   width: 29%;
 }
+
+.footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(3) p:nth-child(2) picture:nth-child(1) {
+  padding-right: 10px;
+
+}
+
+.footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(3) p:nth-child(2) picture:nth-child(3) {
+  padding-left: 10px;
+
+}
