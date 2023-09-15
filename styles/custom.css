@@ -795,14 +795,17 @@ h2#hear-from-our-happy-customers {
     margin: 0;
 }
 
-.customer-speak .default-content-wrapper .button-container a {
+.customer-speak .default-content-wrapper .button-container a.button.primary {
     text-align: center;
     background-color: transparent;
     margin: 0;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .customer-speak .default-content-wrapper .button-container {
     text-align: center;
+    margin: 0;
 }
 .getin-touch .cards-wrapper .cards ul li {
     display: flex;
