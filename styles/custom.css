@@ -640,6 +640,7 @@ main .section.hero-section-wrapper {
   color: var(--white);
   box-shadow: none;
   background-color: transparent;
+  margin: 0;
 }
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(1){
