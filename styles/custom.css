@@ -1123,4 +1123,13 @@ h3#get-in-touch-with-us {
     .customer-speak .default-content-wrapper .button-container a.button.primary{
         font-size: 12px;
     }
+    .customer-speak .default-content-wrapper .button-container a.button.primary::after{
+        padding: 2px;
+    }
+    .section.bank-card-slider-wapper .default-content-wrapper .button-container .button.primary::after{
+        padding: 2px;
+    }
+    .section.get-more-from-bank-wapper .default-content-wrapper .button-container .button.primary::after{
+        padding: 2px;
+    }
 }
