@@ -1182,3 +1182,6 @@ h2#hear-from-our-happy-customers {
   font-weight: bolder;
 }
 
+.footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(1){
+  font-size: 20px;
+}
