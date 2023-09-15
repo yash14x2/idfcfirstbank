@@ -1154,6 +1154,10 @@ h2#hear-from-our-happy-customers {
   position: relative;
 }
 
+.footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(3) p:nth-child(2) picture img{
+  width: 43%;
+
+}
 
 
 .footer-columns .columns-wrapper:nth-child(2) .columns div div:nth-child(1) p:nth-child(2){
