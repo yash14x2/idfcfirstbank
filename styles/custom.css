@@ -1120,4 +1120,7 @@ h3#get-in-touch-with-us {
     .section.customer-speak{
         margin: 20px 15px;
     }
+    .customer-speak .default-content-wrapper .button-container a.button.primary{
+        font-size: 12px;
+    }
 }
