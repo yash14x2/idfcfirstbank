@@ -857,6 +857,12 @@ h3#get-in-touch-with-us {
 .footer-columns .columns-wrapper .columns div table tbody tr td {
     max-width: 120px;
 }
+
+.footer-columns .columns-wrapper .columns div:nth-child(3) div{
+  margin-bottom: 11.9%;
+
+}
+
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
