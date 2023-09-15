@@ -764,15 +764,20 @@ main .section.hero-section-wrapper {
 }
 
 .customer-speak .cards-wrapper .cards ul li {
-    width: 275.75px;
+   flex: 1;
     margin-right: 14px;
     border-radius: 20px;
     color: #464646;
     font-size: 14px;
+    padding: 20px;
 }
 
 .customer-speak .cards-wrapper .cards ul li .cards-card-body {
     box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    margin: 0;
+}
+.customer-speak .cards-wrapper .cards ul li .cards-card-body p {
+    margin: 0;
 }
 
 .customer-speak .cards-wrapper .cards ul li .cards-card-body p:nth-child(2) code {
