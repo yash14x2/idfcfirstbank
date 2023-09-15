@@ -847,6 +847,7 @@ h3#get-in-touch-with-us {
 .section.getin-touch.cards-container {
     padding: 8px 32px;
     padding-bottom: 36px;
+    background: rgba(246, 246, 246, 0.8);
 }
 .section.footer-columns.columns-container {
     max-width: 1455px;
