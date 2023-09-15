@@ -1085,5 +1085,10 @@ h3#get-in-touch-with-us {
     .section.in-the-spotlight-wrapper{
         margin: 20px 15px;
     }
-   
+    .in-the-spotlight-wrapper .default-content-wrapper h2#in-the-spotlight{
+        font-size: 20px;
+    }
+    .in-the-spotlight-wrapper .default-content-wrapper p{
+        font-size: 14px;
+    }
 }
