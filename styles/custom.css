@@ -761,6 +761,7 @@ main .section.hero-section-wrapper {
     margin: 0;
     list-style: none;
     margin-top: 16px;
+    height: 100%;
 }
 
 .customer-speak .cards-wrapper .cards ul li {
