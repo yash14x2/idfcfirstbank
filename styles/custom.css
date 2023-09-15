@@ -640,6 +640,7 @@ main .section.hero-section-wrapper {
   box-shadow: none;
   background-color: transparent;
   margin: 0;
+  padding-left: 15px;
 }
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li:nth-child(1){
@@ -660,6 +661,8 @@ main .section.hero-section-wrapper {
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-image img{
     object-fit: contain;
+    height: 50px;
+    width: 50px;
 }
 
 .in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-body p:nth-child(1) {
