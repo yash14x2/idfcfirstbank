@@ -812,6 +812,7 @@ h2#hear-from-our-happy-customers {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     margin-left: 5px;
+    overflow: unset;
 }
 .customer-speak .default-content-wrapper .button-container {
     text-align: center;
