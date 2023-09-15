@@ -670,6 +670,9 @@ main .section.hero-section-wrapper {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+.in-the-spotlight-wrapper .cards-wrapper .cards ul li .cards-card-image{
+    flex: 0 0 50px;
+}
 /* in the spotlight section css end */
 
 
