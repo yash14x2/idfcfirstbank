@@ -840,6 +840,13 @@ main .section.hero-section-wrapper {
       position: relative;
       left: 41%;
   }
+  .bank-card-slider-wapper .cards-wrapper .cards.block ul li{
+    flex-direction: column;
+    
+  }
+  .bank-card-slider-wapper .cards-wrapper .cards.block ul li{
+    width: 100%;
+  }
   .get-more-from-bank-wapper .cards-wrapper .cards ul{
       flex-direction: column;
   }
