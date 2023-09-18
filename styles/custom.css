@@ -1323,6 +1323,7 @@ h2#hear-from-our-happy-customers {
         background-color: transparent;
         margin : 0px;
         padding-top : 5px;
+        display: flex;
     }
 
      .getin-touch .cards-wrapper .cards  {
