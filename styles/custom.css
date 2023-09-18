@@ -1196,3 +1196,12 @@ h2#hear-from-our-happy-customers {
          margin-bottom: 0px;
 
 }
+
+
+
+.footer-columns .columns-wrapper .columns div {
+  max-width : 120px;
+  align-items: flex-start;
+
+}
+
