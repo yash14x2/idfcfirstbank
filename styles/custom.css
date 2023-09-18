@@ -1301,3 +1301,25 @@ h2#hear-from-our-happy-customers {
     color: white;
 
 } */
+
+
+@media (max-width:600px){
+    .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .getin-touch .cards-wrapper .cards ul li {
+        
+        display: block;
+        
+    }
+
+
+    .getin-touch .cards-wrapper .cards ul li .cards-card-body {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+        padding-top: 20px;
+        font-size: 10px;
+        background-color: transparent;
+    }
+}
