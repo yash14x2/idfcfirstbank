@@ -849,13 +849,14 @@ h2#hear-from-our-happy-customers {
     padding: 40px 0 40px;
     padding-bottom: 36px;
     background: rgba(246, 246, 246, 0.8);
-    height: 780px;
+  
 }
 .section.footer-columns.columns-container {
     max-width: 1455px;
     background: #9D1D27;
     color: white;
     font-size: 14px;
+      height: 780px;
 }
 .footer-columns .columns-wrapper .columns pre {
     overflow: hidden
