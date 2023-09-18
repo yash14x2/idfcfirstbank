@@ -1324,4 +1324,9 @@ h2#hear-from-our-happy-customers {
         margin : 0px;
         padding-top : 5px;
     }
+
+     .getin-touch .cards-wrapper .cards  {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
