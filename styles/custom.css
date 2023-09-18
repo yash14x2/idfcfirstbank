@@ -818,20 +818,20 @@ h2#hear-from-our-happy-customers {
     text-align: center;
     margin: 25px 0 0 0;
 }
-.getin-touch .cards-wrapper .cards ul li {
-    display: flex;
-}
 .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
     height: 110px;
     width: 110px;
 }
 .getin-touch .cards-wrapper .cards ul li {
     border: 0px;
+    display: flex;
+    background-color: transparent;
 }
 
 .getin-touch .cards-wrapper .cards ul li .cards-card-body {
     box-shadow: 0 0 0px rgba(0, 0, 0, 0);
     padding-top: 20px;
+    background-color: transparent;
 }
 
 .getin-touch .cards-wrapper .cards ul {
