@@ -38,22 +38,22 @@ function initializeSlider() {
 
 
 
-// function siemafun() {
-//   new Siema({
-//     selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
-//     duration: 200,
-//     easing: 'ease-out',
-//     perPage: 1,
-//     startIndex: 0,
-//     draggable: true,
-//     multipleDrag: true,
-//     threshold: 20,
-//     loop: false,
-//     rtl: false,
-//     onInit: () => {},
-//     onChange: () => {},
-//   });
-// }
+function siemafun() {
+  new Siema({
+    selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+    duration: 200,
+    easing: 'ease-out',
+    perPage: 1,
+    startIndex: 0,
+    draggable: true,
+    multipleDrag: true,
+    threshold: 20,
+    loop: false,
+    rtl: false,
+    onInit: () => {},
+    onChange: () => {},
+  });
+}
 
 
 
@@ -179,36 +179,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
-
-const carousel = document.querySelector('.get-more-from-bank-wapper .cards-wrapper .block ul'); // Corrected selector here
-
-function siemafun() {
-    const siema = new Siema({
-      selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
-      duration: 200,
-      easing: 'ease-out',
-      perPage: 3,
-      startIndex: 0,
-      draggable: true,
-      multipleDrag: true,
-      threshold: 20,
-      loop: false,
-      rtl: false,
-      onInit: () => {},
-      onChange: (index) => {
-        // This function is called when the slide changes
-        moveCarousel(index);
-      },
-    });
-    
-    // Function to move your carousel
-    function moveCarousel(index) {
-   
-      const itemWidth = carousel.clientWidth / itemsPerPage;
-      const translateX = -index * itemWidth;
-      carousel.style.transform = `translateX(${translateX}px)`;
-    }
-  }
-  
