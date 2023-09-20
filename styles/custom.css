@@ -1361,3 +1361,17 @@ h2#hear-from-our-happy-customers {
     }
 }
 
+.get-more-from-bank-wapper .cards-wrapper .block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Hide the fourth card */
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+}
+
+.get-more-from-bank-wapper .cards-wrapper .block ul li {
+    display: inline-block; /* Display cards in a row */
+    width: 33.33%; /* Each card takes up one-third of the width */
+    box-sizing: border-box; /* Include padding and borders in the width */
+}
+
