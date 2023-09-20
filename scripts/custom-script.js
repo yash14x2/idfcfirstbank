@@ -42,7 +42,8 @@ function siemafun() {
 var slider = tns({
   loop: false,
   container: '.get-more-from-bank-wapper .cards-wrapper .block ul',
-    items: 1,
+    
+    items: 4,
     slideBy: 'page',
     nav: false,
     autoplay: false,
@@ -57,7 +58,6 @@ var slider = tns({
       }
   },
    
-    items: 4,
 
    
   });
