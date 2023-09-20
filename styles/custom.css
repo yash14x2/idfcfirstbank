@@ -1363,3 +1363,15 @@ h2#hear-from-our-happy-customers {
 #tns2 {
     width: calc(135%);
 }
+
+
+@media screen and (max-width: 768px) {
+.get-more-from-bank-wapper .cards-wrapper .cards ul{
+     flex-direction: row; 
+
+}
+
+#tns2 {
+    width: calc(399%);
+}
+}
