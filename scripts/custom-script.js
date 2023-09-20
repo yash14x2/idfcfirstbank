@@ -46,7 +46,7 @@ function siemafun() {
     perPage: {
     800: 2, // 2 items for viewport wider than 800px
     1240: 3 // 3 items for viewport wider than 1240px
-  }
+  },
     startIndex: 0,
     draggable: true,
     multipleDrag: true,
