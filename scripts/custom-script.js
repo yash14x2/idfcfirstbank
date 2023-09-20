@@ -38,6 +38,8 @@ function initializeSlider() {
 
 
 
+const carousel = carouselWrapper.querySelector('.get-more-from-bank-wapper .cards-wrapper .block ul'); // Corrected selector here
+
 function siemafun() {
     const siema = new Siema({
       selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
@@ -65,6 +67,7 @@ function siemafun() {
       carousel.style.transform = `translateX(${translateX}px)`;
     }
   }
+  
   
   
 
