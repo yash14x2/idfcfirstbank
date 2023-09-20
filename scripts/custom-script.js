@@ -66,11 +66,10 @@ function navActiveTab(){
 }
 // Delay the initialization of the slider for 2 seconds after the page loads
 document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(
-    initializeSlider,
-    siemafun ,
-   
-     2000); // 2000 milliseconds (2 seconds)
+ setTimeout(function() {
+  initializeSlider();
+  siemafun();
+}, 2000);// 2000 milliseconds (2 seconds)
 });
 // function initializeSlider2() {
 //     const slider = tns({
