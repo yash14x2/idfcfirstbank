@@ -821,6 +821,7 @@ h2#hear-from-our-happy-customers {
 .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
     height: 110px;
     width: 110px;
+    text-align: center;
 }
 .getin-touch .cards-wrapper .cards ul li {
     border: 0px;
@@ -1331,7 +1332,7 @@ h2#hear-from-our-happy-customers {
         margin : 0px;
         padding-top : 5px;
         display: flex;
-        margin-left: -12px;
+        /* margin-left: -12px; */
     }
 
      .getin-touch .cards-wrapper .cards  {
