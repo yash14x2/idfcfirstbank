@@ -38,23 +38,23 @@ function initializeSlider() {
 
 
 
-function siemafun(){
+function siemafun() {
   new Siema({
-      selector: '.get-more-from-bank-wapper .cards-wrapper .cards ul',
-      duration: 200,
-      easing: 'ease-out',
-      perPage: 1,
-      startIndex: 0,
-      draggable: true,
-      multipleDrag: true,
-      threshold: 20,
-      loop: false,
-      rtl: false,
-      onInit: () => {},
-      onChange: () => {},
-    });
-
+    selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+    duration: 200,
+    easing: 'ease-out',
+    perPage: 1,
+    startIndex: 0,
+    draggable: true,
+    multipleDrag: true,
+    threshold: 20,
+    loop: false,
+    rtl: false,
+    onInit: () => {},
+    onChange: () => {},
+  });
 }
+
 
 
 
