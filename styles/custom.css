@@ -861,8 +861,14 @@ h2#hear-from-our-happy-customers {
     background: #9D1D27;
     color: white;
     font-size: 14px;
-      height: 780px;
+    height: 780px;
+    padding-top: 30px;
 }
+
+.section .columns-wrapper p :first-child{
+    padding-top: 6px;
+}
+
 .footer-columns .columns-wrapper .columns pre {
     overflow: hidden
 }
