@@ -43,25 +43,22 @@ var slider = tns({
   loop: false,
   container: '.get-more-from-bank-wapper .cards-wrapper .block ul',
     
-    items: 4,
-    slideBy: 'page',
-    nav: false,
-    autoplay: false,
-    speed: 400,
-    autoplayButtonOutput: false,
-    controls: true,
-    mouseDrag: true,
-    lazyload: true,
-    responsive: { 
-      768: {
-          items: 1,
-      }
-  },
-   
-
-   
-  });
-
+  loop: false,
+  items: 1,
+  slideBy: 'page',
+  nav: false,
+  autoplay: false,
+  speed: 400,
+  autoplayButtonOutput: false,
+  controls: true,
+  mouseDrag: true,
+  lazyload: true,
+  responsive: { 
+    768: {
+        items: 1,
+    }
+}
+});
   
 }
 
@@ -89,5 +86,4 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 2000 milliseconds (2 seconds)
 });
-
 
