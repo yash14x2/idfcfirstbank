@@ -821,8 +821,12 @@ h2#hear-from-our-happy-customers {
 .getin-touch .cards-wrapper .cards ul li .cards-card-image picture img {
     height: 110px;
     width: 110px;
+}
+
+.getin-touch .cards-wrapper .cards ul li{
     text-align: center;
 }
+
 .getin-touch .cards-wrapper .cards ul li {
     border: 0px;
     display: flex;
