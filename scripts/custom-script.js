@@ -58,8 +58,8 @@ var slider = tns({
   },
    
     items: 4,
-    slideBy: 'page',
-    autoplay: true
+
+   
   });
 
   
