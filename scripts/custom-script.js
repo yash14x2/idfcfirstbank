@@ -43,7 +43,7 @@ function siemafun() {
     selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
     duration: 200,
     easing: 'ease-out',
-    perPage: 3,
+    perPage: 1,
     startIndex: 0,
     draggable: true,
     multipleDrag: true,
