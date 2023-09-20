@@ -57,7 +57,7 @@ var slider = tns({
       }
   },
    
-    items: 3,
+    items: 4,
     slideBy: 'page',
     autoplay: true
   });
