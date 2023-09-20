@@ -38,6 +38,22 @@ function initializeSlider() {
 
 
 
+function siemafun() {
+  new Siema({
+    selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+    duration: 200,
+    easing: 'ease-out',
+    perPage: 1,
+    startIndex: 0,
+    draggable: true,
+    multipleDrag: true,
+    threshold: 20,
+    loop: false,
+    rtl: false,
+    onInit: () => {},
+    onChange: () => {},
+  });
+}
 
 
 
@@ -52,61 +68,61 @@ function navActiveTab(){
 document.addEventListener('DOMContentLoaded', function() {
  setTimeout(function() {
   initializeSlider();
-  initializeSlider2();
+  siemafun();
 }, 2000);// 2000 milliseconds (2 seconds)
 });
-function initializeSlider2() {
-    const slider = tns({
-      container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
-      loop: false,
-      items: 2,
-      slideBy: 'page',
-      nav: false,
-      autoplay: false,
-      speed: 400,
-      autoplayButtonOutput: false,
-      controls: true,
-      mouseDrag: true,
-      lazyload: true,
-      responsive: { 
-        768: {
-          items: 1,
-        }
-      }
-    });
+// function initializeSlider2() {
+//     const slider = tns({
+//       container: '.bank-card-slider-wapper .cards-wrapper .cards ul',
+//       loop: false,
+//       items: 2,
+//       slideBy: 'page',
+//       nav: false,
+//       autoplay: false,
+//       speed: 400,
+//       autoplayButtonOutput: false,
+//       controls: true,
+//       mouseDrag: true,
+//       lazyload: true,
+//       responsive: { 
+//         768: {
+//           items: 1,
+//         }
+//       }
+//     });
   
-    sliderInitialized = true; // Set to true to avoid reinitialization
+//     sliderInitialized = true; // Set to true to avoid reinitialization
   
-    const Nbutton = document.querySelector('button[data-controls="next"]');
-    Nbutton.textContent = " "; // Replace "New Text" with your desired text
+//     const Nbutton = document.querySelector('button[data-controls="next"]');
+//     Nbutton.textContent = " "; // Replace "New Text" with your desired text
   
-    const Pbutton = document.querySelector('button[data-controls="prev"]');
-    Pbutton.textContent = " "; // Replace "New Text" with your desired text
-  }
+//     const Pbutton = document.querySelector('button[data-controls="prev"]');
+//     Pbutton.textContent = " "; // Replace "New Text" with your desired text
+//   }
   
-  function onElementIntersection(entries, observer) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        initializeSlider2(); // Initialize the slider when the element is in view
-        observer.unobserve(entry.target); // Stop observing once it's initialized
-      }
-    });
-  }
+//   function onElementIntersection(entries, observer) {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         initializeSlider2(); // Initialize the slider when the element is in view
+//         observer.unobserve(entry.target); // Stop observing once it's initialized
+//       }
+//     });
+//   }
   
-  // Specify the element you want to watch for visibility
-  const targetElement = document.querySelector('.bank-card-slider-wapper .cards-wrapper .cards');
+//   // Specify the element you want to watch for visibility
+//   const targetElement = document.querySelector('.bank-card-slider-wapper .cards-wrapper .cards');
   
-  const observerOptions = {
-    root: null, // Use the viewport as the root
-    rootMargin: '0px', // No margin
-    threshold: 0.5, // Trigger when at least 50% of the element is in view
-  };
+//   const observerOptions = {
+//     root: null, // Use the viewport as the root
+//     rootMargin: '0px', // No margin
+//     threshold: 0.5, // Trigger when at least 50% of the element is in view
+//   };
   
-  const intersectionObserver = new IntersectionObserver(onElementIntersection, observerOptions);
+//   const intersectionObserver = new IntersectionObserver(onElementIntersection, observerOptions);
   
-  document.addEventListener('DOMContentLoaded', function() {
-    intersectionObserver.observe(targetElement); // Start observing the target element
-  });
+//   document.addEventListener('DOMContentLoaded', function() {
+//     intersectionObserver.observe(targetElement); // Start observing the target element
+//   });
   
 
   
@@ -114,51 +130,51 @@ function initializeSlider2() {
 // Function to initialize and move the carousel
 // Wrap your carousel initialization code in a function
 // Wrap your carousel initialization code in a function
-function initializeCarousel() {
-  const carouselWrapper = document.querySelector('.bank-card-slider-wapper .cards-wrapper');
-  const carousel = carouselWrapper.querySelector('.cards ul'); // Corrected selector here
-  const prevButton = document.createElement("button");
-  const nextButton = document.createElement("button");
+// function initializeCarousel() {
+//   const carouselWrapper = document.querySelector('.bank-card-slider-wapper .cards-wrapper');
+//   const carousel = carouselWrapper.querySelector('.cards ul'); // Corrected selector here
+//   const prevButton = document.createElement("button");
+//   const nextButton = document.createElement("button");
 
-  prevButton.classList.add("prev-button");
-  nextButton.classList.add("next-button");
+//   prevButton.classList.add("prev-button");
+//   nextButton.classList.add("next-button");
 
-  prevButton.textContent = "Previous";
-  nextButton.textContent = "Next";
+//   prevButton.textContent = "Previous";
+//   nextButton.textContent = "Next";
 
-  carouselWrapper.appendChild(prevButton);
-  carouselWrapper.appendChild(nextButton);
+//   carouselWrapper.appendChild(prevButton);
+//   carouselWrapper.appendChild(nextButton);
 
-  const itemsPerPage = 1; // Adjust the number of items per page as needed
-  let currentIndex = 0;
+//   const itemsPerPage = 1; // Adjust the number of items per page as needed
+//   let currentIndex = 0;
 
-  // Function to move the carousel to a specific index
-  function moveCarousel(index) {
-    currentIndex = index;
-    const itemWidth = carousel.clientWidth / itemsPerPage;
-    const translateX = -currentIndex * itemWidth;
-    carousel.style.transform = `translateX(${translateX}px)`;
-  }
+//   // Function to move the carousel to a specific index
+//   function moveCarousel(index) {
+//     currentIndex = index;
+//     const itemWidth = carousel.clientWidth / itemsPerPage;
+//     const translateX = -currentIndex * itemWidth;
+//     carousel.style.transform = `translateX(${translateX}px)`;
+//   }
 
-  // Event listener for the previous button
-  prevButton.addEventListener('click', () => {
-    currentIndex = Math.max(currentIndex - 1, 0); // Ensure currentIndex doesn't go below 0
-    moveCarousel(currentIndex);
-  });
+//   // Event listener for the previous button
+//   prevButton.addEventListener('click', () => {
+//     currentIndex = Math.max(currentIndex - 1, 0); // Ensure currentIndex doesn't go below 0
+//     moveCarousel(currentIndex);
+//   });
 
-  // Event listener for the next button
-  nextButton.addEventListener('click', () => {
-    currentIndex = Math.min(currentIndex + 1, carousel.children.length - itemsPerPage); // Ensure currentIndex doesn't exceed the number of items
-    moveCarousel(currentIndex);
-  });
+//   // Event listener for the next button
+//   nextButton.addEventListener('click', () => {
+//     currentIndex = Math.min(currentIndex + 1, carousel.children.length - itemsPerPage); // Ensure currentIndex doesn't exceed the number of items
+//     moveCarousel(currentIndex);
+//   });
 
-  // Initial positioning
-  moveCarousel(currentIndex);
-}
+//   // Initial positioning
+//   moveCarousel(currentIndex);
+// }
 
 // Delay the initialization of the carousel for 3 seconds after the page loads
-document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(initializeCarousel, 3000); // 3000 milliseconds (3 seconds)
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   setTimeout(initializeCarousel, 3000); // 3000 milliseconds (3 seconds)
+// });
 
 
