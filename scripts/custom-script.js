@@ -39,18 +39,15 @@ function initializeSlider() {
 
 
 function siemafun() {
-  new Siema({
+new Siema({
     selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
     duration: 200,
     easing: 'ease-out',
-    perPage: {
-    800: 2, // 2 items for viewport wider than 800px
-    1240: 3 // 3 items for viewport wider than 1240px
-  },
+    perPage: 3,
     startIndex: 0,
     draggable: true,
     multipleDrag: true,
-    threshold: 20,
+    threshold: 10,
     loop: false,
     rtl: false,
     onInit: () => {},
