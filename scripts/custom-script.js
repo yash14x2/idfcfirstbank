@@ -39,19 +39,11 @@ function initializeSlider() {
 
 
 function siemafun() {
-new Siema({
-    selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
-    duration: 200,
-    easing: 'ease-out',
-    perPage: 4,
-    startIndex: 0,
-    draggable: true,
-    multipleDrag: true,
-    threshold: 10,
-    loop: false,
-    rtl: false,
-    onInit: () => {},
-    onChange: () => {},
+var slider = tns({
+    container: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+    items: 3,
+    slideBy: 'page',
+    autoplay: true
   });
 }
 
