@@ -1360,4 +1360,15 @@ h2#hear-from-our-happy-customers {
 
     }
 }
+.get-more-from-bank-wapper .cards-wrapper .cards ul {
+  overflow: hidden; /* Hide overflow */
+  white-space: nowrap; /* Prevent cards from wrapping to a new line */
+}
+
+.get-more-from-bank-wapper .cards-wrapper .cards ul li {
+  display: inline-block; /* Display cards in a row */
+  width: 33.33%; /* Set the width of each card (adjust as needed) */
+  box-sizing: border-box; /* Include padding and border within the width */
+  vertical-align: top; /* Align cards at the top of the container */
+}
 
