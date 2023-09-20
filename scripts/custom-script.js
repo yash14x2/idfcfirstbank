@@ -38,22 +38,22 @@ function initializeSlider() {
 
 
 
-function siemafun() {
-  new Siema({
-    selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
-    duration: 200,
-    easing: 'ease-out',
-    perPage: 3,
-    startIndex: 0,
-    draggable: true,
-    multipleDrag: true,
-    threshold: 20,
-    loop: false,
-    rtl: false,
-    onInit: () => {},
-    onChange: () => {},
-  });
-}
+// function siemafun() {
+//   new Siema({
+//     selector: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+//     duration: 200,
+//     easing: 'ease-out',
+//     perPage: 3,
+//     startIndex: 0,
+//     draggable: true,
+//     multipleDrag: true,
+//     threshold: 20,
+//     loop: false,
+//     rtl: false,
+//     onInit: () => {},
+//     onChange: () => {},
+//   });
+// }
 
 
 
@@ -68,7 +68,7 @@ function navActiveTab(){
 document.addEventListener('DOMContentLoaded', function() {
  setTimeout(function() {
   initializeSlider();
-  siemafun();
+  // siemafun();
 }, 2000);// 2000 milliseconds (2 seconds)
 });
 
