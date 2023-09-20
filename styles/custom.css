@@ -866,7 +866,8 @@ h2#hear-from-our-happy-customers {
 }
 
 .section .columns-wrapper p :first-child{
-    padding-top: 6px;
+
+    margin-top: 6px;
 }
 
 .footer-columns .columns-wrapper .columns pre {
