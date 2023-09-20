@@ -68,8 +68,9 @@ function navActiveTab(){
 document.addEventListener('DOMContentLoaded', function() {
  setTimeout(function() {
   initializeSlider();
-  siemafun();
+ 
 }, 2000);// 2000 milliseconds (2 seconds)
 });
 
+ siemafun();
 
