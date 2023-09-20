@@ -70,7 +70,12 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeSlider();
  
 }, 2000);
- siemafun();
+
+
+ setTimeout(function() {
+   siemafun();
+ 
+}, 4000);
   
   // 2000 milliseconds (2 seconds)
 });
