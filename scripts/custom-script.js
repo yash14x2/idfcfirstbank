@@ -78,7 +78,6 @@ function siemafun() {
       const translateX = -index * itemWidth;
       carousel.style.transform = `translateX(${translateX}px)`;
     }
-  }
   
   
   
@@ -202,7 +201,6 @@ document.addEventListener('DOMContentLoaded', function() {
 // document.addEventListener('DOMContentLoaded', function() {
 //   setTimeout(initializeCarousel, 3000); // 3000 milliseconds (3 seconds)
 // });
-
 
 
 
