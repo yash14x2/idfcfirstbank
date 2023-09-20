@@ -40,7 +40,7 @@ function initializeSlider() {
 
 function siemafun(){
   new Siema({
-      selector: '.get-more-from-bank-wapper .cards-wrapper cards .block ul',
+      selector: '.get-more-from-bank-wapper .cards-wrapper .cards ul',
       duration: 200,
       easing: 'ease-out',
       perPage: 1,
