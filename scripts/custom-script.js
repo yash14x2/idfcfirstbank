@@ -40,11 +40,29 @@ function initializeSlider() {
 
 function siemafun() {
 var slider = tns({
-    container: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+  loop: false,
+  container: '.get-more-from-bank-wapper .cards-wrapper .block ul',
+    items: 1,
+    slideBy: 'page',
+    nav: false,
+    autoplay: false,
+    speed: 400,
+    autoplayButtonOutput: false,
+    controls: true,
+    mouseDrag: true,
+    lazyload: true,
+    responsive: { 
+      768: {
+          items: 1,
+      }
+  },
+   
     items: 3,
     slideBy: 'page',
     autoplay: true
   });
+
+  
 }
 
 
@@ -71,6 +89,5 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 2000 milliseconds (2 seconds)
 });
-
 
 
