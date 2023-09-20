@@ -1360,3 +1360,18 @@ h2#hear-from-our-happy-customers {
 
     }
 }
+
+.get-more-from-bank-wapper .cards-wrapper {
+  width: 75%; /* Adjust the width to display three cards (25% width each) */
+  overflow: hidden; /* Hide the overflow to hide the fourth card */
+}
+
+.get-more-from-bank-wapper .cards-wrapper .block ul {
+  display: flex; /* Use flex layout to arrange the cards horizontally */
+  transition: all 200ms ease-out; /* Add a transition for smoother sliding */
+}
+
+.get-more-from-bank-wapper .cards-wrapper .block ul li {
+  width: 33.33%; /* Each card takes up one-third of the width */
+}
+
