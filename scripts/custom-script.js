@@ -38,7 +38,9 @@ function initializeSlider() {
 
 
 
-const carousel = carouselWrapper.querySelector('.get-more-from-bank-wapper .cards-wrapper .block ul'); // Corrected selector here
+const carouselWrapper = document.querySelector('.get-more-from-bank-wapper .cards-wrapper');
+
+const carousel = carouselWrapper.querySelector('.block ul'); // Corrected selector here
 
 function siemafun() {
     const siema = new Siema({
@@ -58,6 +60,16 @@ function siemafun() {
         moveCarousel(index);
       },
     });
+    
+    // Function to move your carousel
+    function moveCarousel(index) {
+   
+      const itemWidth = carousel.clientWidth / itemsPerPage;
+      const translateX = -index * itemWidth;
+      carousel.style.transform = `translateX(${translateX}px)`;
+    }
+  }
+  
     
     // Function to move your carousel
     function moveCarousel(index) {
