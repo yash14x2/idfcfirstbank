@@ -938,6 +938,28 @@ h2#hear-from-our-happy-customers {
     z-index: 99;
 }
 
+#tns3-ow .tns-controls{
+    position: unset;
+}
+
+#tns3-ow{
+    position: relative;
+}
+
+#tns3-ow .tns-controls button[data-controls="prev"] {
+    position: absolute;
+    right: 0;
+    left: -31px;
+    top: 28%;
+}
+
+#tns3-ow .tns-controls button[data-controls="next"] {
+    position: absolute;
+    right: -29px;
+    top: 28%;
+    z-index: 99;
+}
+
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
