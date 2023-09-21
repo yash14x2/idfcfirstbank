@@ -294,6 +294,11 @@ main .section.hero-section-wrapper {
     top: 28%;
 }
 
+#tns2-ow .tns-controls{
+    position: unset;
+    
+}
+
 .tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
     content: "";
     border: solid var(--idfc-red);
@@ -1440,6 +1445,8 @@ h2#hear-from-our-happy-customers {
     /* -webkit-transform: rotate(135deg); */
     border-radius: 0;
 }
+
+
 
 .section .cards-wrapper .cards .tns-outer button:disabled{
     width: 30px;
