@@ -221,7 +221,7 @@ main .section.secondary-nav-section-wrapper {
     display: none;
 }
 
-.secondary-nav-section-wrapper .default-content-wrapper ul li::after {
+/* .secondary-nav-section-wrapper .default-content-wrapper ul li::after {
     content: "";
     border: 2px solid var(--idfc-red);
     border-width: 0 2px 2px 0;
@@ -230,7 +230,7 @@ main .section.secondary-nav-section-wrapper {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     margin: 0 5px;
-}
+} */
 
 .secondary-nav-section-wrapper .default-content-wrapper ul li::after:hover {
     transform: rotate(-135deg);
