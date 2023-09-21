@@ -1406,7 +1406,7 @@ h2#hear-from-our-happy-customers {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(-45deg);
+    transform: rotate(10deg);
     -webkit-transform: rotate(-45deg);
     border-radius: 0;
 }
