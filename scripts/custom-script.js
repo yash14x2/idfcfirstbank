@@ -17,7 +17,7 @@ function initializeSlider() {
     responsive: {
       768: {
         items: 1,
-        controls: false, // Hide controls in mobile view
+
       }
     }
   });
