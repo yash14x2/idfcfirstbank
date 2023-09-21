@@ -1400,7 +1400,7 @@ h2#hear-from-our-happy-customers {
 }
 }
 
-.tns-outer#tns2-ow .tns-controls button[data-controls="prev"]::before {
+/* .tns-outer#tns2-ow .tns-controls button[data-controls="prev"]::before {
     content: "";
     border: solid var(--idfc-red);
     border-width: 0 3px 3px 0;
@@ -1409,7 +1409,7 @@ h2#hear-from-our-happy-customers {
     transform: rotate(-45deg);
     -webkit-transform: rotate(135deg);
     border-radius: 10%;
-}
+} */
 
 
 .tns-outer#tns2-ow .tns-controls button[data-controls="next"]::after {
