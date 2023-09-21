@@ -1400,6 +1400,18 @@ h2#hear-from-our-happy-customers {
 }
 }
 
+.tns-outer#tns2-ow .tns-controls button[data-controls=""]::before {
+    content: "";
+    border: solid var(--idfc-red);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border-radius: 0;
+}
+
+
 .tns-outer#tns2-ow .tns-controls button[data-controls="next"]::after {
     content: "";
     border: solid var(--idfc-red);
