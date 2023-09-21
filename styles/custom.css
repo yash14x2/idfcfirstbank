@@ -288,10 +288,9 @@ main .section.hero-section-wrapper {
 
 .tns-controls {
     position: absolute;
-
     z-index: 99;
     right: 5%;
-    top: 84%;
+    top: 74%;
 }
 
 .tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
@@ -910,6 +909,11 @@ h2#hear-from-our-happy-customers {
 .footer-wrapper{
     display: none;
 }
+
+.section .cards-wrapper .cards .tns-outer .tns-ovh .tns-inner #tns2{
+    padding-bottom: 40px;
+}
+
 @media screen and (min-width:900px) {
     header nav .nav-sections ul {
         gap: 5px;
