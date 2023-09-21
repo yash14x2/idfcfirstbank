@@ -1442,8 +1442,21 @@ h2#hear-from-our-happy-customers {
 }
 
 .section .cards-wrapper .cards .tns-outer button:disabled{
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color: #000000;
+    background: var(--white);
+    color: var(--idfc-red);
+    padding: 0;
+}
+
+.section .cards-wrapper .cards .tns-outer button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--white);
+    color: var(--idfc-red);
+    padding: 0;
 }
 
 @media (max-width: 768px) {
