@@ -1,3 +1,5 @@
+
+let sliderInitialized = false;
 // Function to initialize the slider
 function initializeSlider() {
   const slider = tns({
