@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
    siemafun();
    siemafun2();
  
-}, 1000);
+}, 2000);
   
   // 2000 milliseconds (2 seconds)
 });
