@@ -1443,7 +1443,7 @@ h2#hear-from-our-happy-customers {
 
 .section .cards-wrapper .cards .tns-outer button ::after{
     border-radius: 50%;
-    color: #000000;
+    background-color: #000000;
 }
 
 @media (max-width: 768px) {
