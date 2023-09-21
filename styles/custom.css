@@ -933,9 +933,9 @@ h2#hear-from-our-happy-customers {
 
 #tns2-ow .tns-controls button[data-controls="next"] {
     position: absolute;
-    right: 0;
-    left: -31px;
+    right: -29px;
     top: 28%;
+    z-index: 99;
 }
 
 @media screen and (min-width:900px) {
