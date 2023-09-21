@@ -588,7 +588,7 @@ main .section.hero-section-wrapper {
 }
 
 .get-more-from-bank-wapper .cards-wrapper .cards ul li:nth-child(4) {
-    background-color: var(--sky-blue);
+    background-color:#f3dadc;
 }
 
 .get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(1) .cards-card-body p:nth-child(1) {
@@ -601,6 +601,10 @@ main .section.hero-section-wrapper {
 
 .get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(3) .cards-card-body p:nth-child(1) {
     color: #d09f41;
+}
+
+.get-more-from-bank-wapper .cards-wrapper .cards.block ul li:nth-child(4) .cards-card-body p:nth-child(1) {
+    color: #9b1e26;
 }
 
 .section.get-more-from-bank-wapper .default-content-wrapper .button-container {
