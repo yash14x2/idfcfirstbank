@@ -1382,7 +1382,17 @@ h2#hear-from-our-happy-customers {
 
 }
 
+    .bank-card-slider-wapper .cards-wrapper .block ul{
+        flex-direction: row;
+
+
+    }
+
 #tns2 {
     width: calc(399%);
+}
+
+#tns3 > .tns-item {
+    width: calc(24%);
 }
 }
