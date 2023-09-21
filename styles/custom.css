@@ -290,7 +290,7 @@ main .section.hero-section-wrapper {
     position: absolute;
     z-index: 99;
     right: 5%;
-    top: 74%;
+    top: 28%;
 }
 
 .tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
