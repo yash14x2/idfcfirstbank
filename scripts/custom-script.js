@@ -56,6 +56,7 @@ var slider = tns({
   responsive: { 
     768: {
         items: 1,
+        controls: false,
     }
 }
 });
@@ -80,6 +81,7 @@ function siemafun2() {
     responsive: { 
       768: {
           items: 1,
+          controls: false,
       }
   }
   });
@@ -112,4 +114,3 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 2000 milliseconds (2 seconds)
 });
-
