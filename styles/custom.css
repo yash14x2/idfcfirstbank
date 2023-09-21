@@ -1383,7 +1383,7 @@ h2#hear-from-our-happy-customers {
 }
 
    .bank-card-slider-wapper .cards-wrapper .cards.block ul {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #tns2 {
