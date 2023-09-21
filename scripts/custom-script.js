@@ -62,6 +62,31 @@ var slider = tns({
   
 }
 
+function siemafun2() {
+  var slider = tns({
+    loop: false,
+    container: '.bank-card-slider-wapper .cards-wrapper .block ul',
+      
+    loop: false,
+    items: 1,
+    slideBy: 'page',
+    nav: false,
+    autoplay: false,
+    speed: 400,
+    autoplayButtonOutput: false,
+    controls: true,
+    mouseDrag: true,
+    lazyload: true,
+    responsive: { 
+      768: {
+          items: 1,
+      }
+  }
+  });
+    
+  }
+  
+
 
 
 
@@ -81,8 +106,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
  setTimeout(function() {
    siemafun();
+   siemafun2();
  
 }, 4000);
   
   // 2000 milliseconds (2 seconds)
 });
+
