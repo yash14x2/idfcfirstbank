@@ -305,16 +305,7 @@ main .section.hero-section-wrapper {
     border-radius: 0;
 }
 
-.tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
-    content: "";
-    border: solid var(--idfc-red);
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    border-radius: 0;
-}
+
 
 .tns-outer#tns1-ow .tns-controls button[data-controls="next"]::after {
     content: "";
