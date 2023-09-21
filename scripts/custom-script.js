@@ -11,7 +11,7 @@ function initializeSlider() {
     autoplay: false,
     speed: 400,
     autoplayButtonOutput: false,
-    controls: false,
+    controls: true,
     mouseDrag: true,
     lazyload: true,
     responsive: { 
