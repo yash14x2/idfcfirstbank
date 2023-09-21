@@ -296,7 +296,7 @@ main .section.hero-section-wrapper {
 
 #tns2-ow .tns-controls{
     position: unset;
-    
+
 }
 
 .tns-outer#tns1-ow .tns-controls button[data-controls="prev"]::after {
@@ -918,6 +918,24 @@ h2#hear-from-our-happy-customers {
 
 .section .cards-wrapper .cards .tns-outer .tns-ovh .tns-inner #tns2{
     padding-bottom: 40px;
+}
+
+#tns2-ow{
+    position: relative;
+}
+
+#tns2-ow .tns-controls button[data-controls="prev"] {
+    position: absolute;
+    right: 0;
+    left: -31px;
+    top: 28%;
+}
+
+#tns2-ow .tns-controls button[data-controls="next"] {
+    position: absolute;
+    right: 0;
+    left: -31px;
+    top: 28%;
 }
 
 @media screen and (min-width:900px) {
