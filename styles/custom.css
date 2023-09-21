@@ -882,7 +882,6 @@ h2#hear-from-our-happy-customers {
     background: #9D1D27;
     color: white;
     font-size: 14px;
-    height: 780px;
     padding-top: 30px;
 }
 
@@ -1330,20 +1329,10 @@ h2#hear-from-our-happy-customers {
   align-items: flex-start;
 
 }
-/* .section.footer-columnss.columns-container {
-    background: rgba(17, 17, 17, 0.1);
-    position: absolute;
-    padding: 22px 160px;
-    top: 352%;
-    color: white;
-
-} */
-
 .section.footer-columnss.columns-container{
     padding: 25px 32px;
-    margin-top: -23%;color: white;
-    background: rgba(17, 17, 17, 0.1)
-
+    color: white;
+    background: #9D1D27;
 }
 
 
