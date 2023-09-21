@@ -288,7 +288,7 @@ main .section.hero-section-wrapper {
 
 .tns-controls {
     position: absolute;
-    z-index: 99;
+    z-index: -1;
     right: 5%;
     top: 28%;
 }
