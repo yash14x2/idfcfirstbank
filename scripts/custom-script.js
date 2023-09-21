@@ -173,8 +173,4 @@ function initializeCarousel() {
 }
 
 // Delay the initialization of the carousel for 3 seconds after the page loads
-document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(initializeCarousel, 3000); // 3000 milliseconds (3 seconds)
-});
-
 
