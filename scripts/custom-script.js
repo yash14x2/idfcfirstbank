@@ -63,7 +63,7 @@ var slider = tns({
 }
 
 function siemafun2() {
-  var slider = tns({
+  var slider2 = tns({
     loop: false,
     container: '.bank-card-slider-wapper .cards-wrapper .block ul',
       
@@ -112,4 +112,3 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 2000 milliseconds (2 seconds)
 });
-
