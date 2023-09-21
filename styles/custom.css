@@ -1372,6 +1372,9 @@ h2#hear-from-our-happy-customers {
     width: calc(135%);
 }
 
+#tns3 > .tns-item {
+    width: calc(8%);
+}
 
 @media screen and (max-width: 768px) {
 .get-more-from-bank-wapper .cards-wrapper .cards ul{
