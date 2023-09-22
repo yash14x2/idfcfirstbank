@@ -1569,4 +1569,8 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 width: 100%;
 flex: none;
 }
+
+#tns2 > .tns-item {
+    width: calc(24%);
+}
 }
