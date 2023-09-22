@@ -120,11 +120,11 @@ function navActiveTab(){
 }
 // Delay the initialization of the slider for 2 seconds after the page loads
 document.addEventListener('DOMContentLoaded', function() {
- setTimeout(function() {
-  initializeSlider();
+//  setTimeout(function() {
+//   initializeSlider();
  
-}, 2000);
-// initializeSlider();
+// }, 2000);
+initializeSlider();
 
 
  setTimeout(function() {
