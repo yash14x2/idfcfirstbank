@@ -869,11 +869,11 @@ h2#hear-from-our-happy-customers {
   
 }
 .section.footer-columns.columns-container {
-    max-width: 1455px;
+    /* max-width: 1455px; */
     background: #9D1D27;
     color: white;
     font-size: 14px;
-    height: 780px;
+    /* height: 780px; */
     padding-top: 30px;
 }
 
@@ -1371,7 +1371,8 @@ h2#hear-from-our-happy-customers {
 
 .section.footer-columnss.columns-container{
     padding: 25px 32px;
-    margin-top: -23%;color: white;
+    /* margin-top: -23%; */
+    color: white;
     background: rgba(17, 17, 17, 0.1)
 
 }
