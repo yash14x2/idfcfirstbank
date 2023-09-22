@@ -2,6 +2,7 @@ let sliderInitialized = false; // To track whether the slider has been initializ
 
 // Function to initialize the slider
 function initializeSlider() {
+  console.log("Initializing slider..."); // Add this line
   const slider = tns({
     container: '.hero-section-wrapper',
     loop: false,
