@@ -1556,4 +1556,10 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   margin-right: 13px;
     margin-left: 7px;
 }
+
+
+.get-more-from-bank-wapper.cards-wrapper .cards.block ul li{
+
+width: 100%;
+}
 }
