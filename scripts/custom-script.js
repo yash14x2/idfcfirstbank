@@ -2,41 +2,43 @@ let sliderInitialized = false; // To track whether the slider has been initializ
 
 // Function to initialize the slider
 function initializeSlider() {
-  
-  const slider = tns({
-    container: '.hero-section-wrapper',
-    loop: false,
-    items: 1,
-    slideBy: 'page',
-    nav: false,
-    autoplay: false,
-    speed: 400,
-    autoplayButtonOutput: false,
-    controls: true,
-    mouseDrag: true,
-    lazyload: true,
-    responsive: { 
-      768: {
+  if (!sliderInitialized) {
+    const slider = tns({
+      container: '.hero-section-wrapper',
+      loop: false,
+      items: 1,
+      slideBy: 'page',
+      nav: false,
+      autoplay: false,
+      speed: 400,
+      autoplayButtonOutput: false,
+      controls: true,
+      mouseDrag: true,
+      lazyload: true,
+      responsive: {
+        768: {
           items: 1,
-      }
+        },
+      },
+    });
+
+    sliderInitialized = true; // Set to true to avoid reinitialization
+
+    // Select the button element with the data-controls attribute set to "next"
+    const Nbutton = document.querySelector('button[data-controls="next"]');
+
+    // Change the text inside the button
+    Nbutton.textContent = " "; // Replace "New Text" with your desired text
+
+    const Pbutton = document.querySelector('button[data-controls="prev"]');
+
+    // Change the text inside the button
+    Pbutton.textContent = " "; // Replace "New Text" with your desired text
+
+    // Show the slider container once it's initialized
+    document.querySelector('.hero-section-wrapper').style.display = 'block';
   }
-  });
-
-
-  sliderInitialized = true; // Set to true to avoid reinitialization
-
-  // Select the button element with the data-controls attribute set to "next"
-  const Nbutton = document.querySelector('button[data-controls="next"]');
-
-  // Change the text inside the button
-  Nbutton.textContent = " "; // Replace "New Text" with your desired text
-
-  const Pbutton = document.querySelector('button[data-controls="prev"]');
-
-  // Change the text inside the button
-  Pbutton.textContent = " "; // Replace "New Text" with your desired text
 }
-
 
 
 function siemafun() {
