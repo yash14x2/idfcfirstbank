@@ -950,16 +950,17 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
 #tns3-ow .tns-controls button[data-controls="prev"] {
-    position: absolute;
-    right: 0;
-    left: -31px;
-    top: 28%;
+  position: absolute;
+  right: 0;
+  left: -46px;
+  top: 28%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
-
 #tns3-ow .tns-controls button[data-controls="next"] {
     position: absolute;
-    right: -29px;
+    right: -45px;
     top: 28%;
+     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width:900px) {
