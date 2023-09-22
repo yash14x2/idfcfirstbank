@@ -120,24 +120,33 @@ function navActiveTab(){
   active.classList.add('active-tab');
 }
 // Delay the initialization of the slider for 2 seconds after the page loads
+// document.addEventListener('DOMContentLoaded', function() {
+//   window.onload = function() {
+//     initializeSlider();
+//     // siemafun();
+//     // siemafun2();
+//   };
+// //  setTimeout(function() {
+// //   initializeSlider();
+ 
+// // }, 2000);
+// // initializeSlider();
+
+
+//  setTimeout(function() {
+//    siemafun();
+//    siemafun2();
+ 
+// }, 3000);
 document.addEventListener('DOMContentLoaded', function() {
   window.onload = function() {
+    // Initialize the slider only after all page resources have loaded
     initializeSlider();
-    // siemafun();
-    // siemafun2();
+    siemafun();
+    siemafun2();
   };
-//  setTimeout(function() {
-//   initializeSlider();
- 
-// }, 2000);
-// initializeSlider();
+});
 
-
- setTimeout(function() {
-   siemafun();
-   siemafun2();
- 
-}, 3000);
   
   // 2000 milliseconds (2 seconds)
-});
+// });
