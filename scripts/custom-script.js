@@ -2,28 +2,28 @@ let sliderInitialized = false; // To track whether the slider has been initializ
 
 // Function to initialize the slider
 function initializeSlider() {
-  console.log("Initializing slider..."); // Add this line
-  if (!sliderInitialized) {
-    const slider = tns({
-      container: '.hero-section-wrapper',
-      loop: false,
-      items: 1,
-      slideBy: 'page',
-      nav: false,
-      autoplay: false,
-      speed: 400,
-      autoplayButtonOutput: false,
-      controls: true,
-      mouseDrag: true,
-      lazyload: true,
-      responsive: {
-        768: {
+  
+  const slider = tns({
+    container: '.hero-section-wrapper',
+    loop: false,
+    items: 1,
+    slideBy: 'page',
+    nav: false,
+    autoplay: false,
+    speed: 400,
+    autoplayButtonOutput: false,
+    controls: true,
+    mouseDrag: true,
+    lazyload: true,
+    responsive: { 
+      768: {
           items: 1,
-        },
-      },
-    });
+      }
   }
-    sliderInitialized = true;  // Set to true to avoid reinitialization
+  });
+
+
+  sliderInitialized = true; // Set to true to avoid reinitialization
 
   // Select the button element with the data-controls attribute set to "next"
   const Nbutton = document.querySelector('button[data-controls="next"]');
@@ -120,33 +120,19 @@ function navActiveTab(){
   active.classList.add('active-tab');
 }
 // Delay the initialization of the slider for 2 seconds after the page loads
-// document.addEventListener('DOMContentLoaded', function() {
-//   window.onload = function() {
-//     initializeSlider();
-//     // siemafun();
-//     // siemafun2();
-//   };
-// //  setTimeout(function() {
-// //   initializeSlider();
- 
-// // }, 2000);
-// // initializeSlider();
-
-
-//  setTimeout(function() {
-//    siemafun();
-//    siemafun2();
- 
-// }, 3000);
 document.addEventListener('DOMContentLoaded', function() {
-  window.onload = function() {
-    // Initialize the slider only after all page resources have loaded
-    initializeSlider();
-    siemafun();
-    siemafun2();
-  };
-});
+ setTimeout(function() {
+  initializeSlider();
+ 
+}, 2000);
 
+
+
+ setTimeout(function() {
+   siemafun();
+   siemafun2();
+ 
+}, 3000);
   
   // 2000 milliseconds (2 seconds)
-// });
+});
