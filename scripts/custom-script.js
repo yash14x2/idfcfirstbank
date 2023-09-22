@@ -36,7 +36,9 @@ function initializeSlider() {
     Pbutton.textContent = " "; // Replace "New Text" with your desired text
 
     // Show the slider container once it's initialized
-    document.querySelector('.hero-section-wrapper').style.display = 'block';
+    document.querySelector('.hero-section-wrapper').style.opacity = '1';
+    document.querySelector('.hero-section-wrapper').style.position = 'relative';
+    document.querySelector('.hero-section-wrapper').style.left = '0';
   }
 }
 
