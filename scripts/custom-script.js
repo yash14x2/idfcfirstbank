@@ -123,8 +123,8 @@ function navActiveTab(){
 document.addEventListener('DOMContentLoaded', function() {
   window.onload = function() {
     initializeSlider();
-    siemafun();
-    siemafun2();
+    // siemafun();
+    // siemafun2();
   };
 //  setTimeout(function() {
 //   initializeSlider();
@@ -133,11 +133,11 @@ document.addEventListener('DOMContentLoaded', function() {
 // initializeSlider();
 
 
-//  setTimeout(function() {
-//    siemafun();
-//    siemafun2();
+ setTimeout(function() {
+   siemafun();
+   siemafun2();
  
-// }, 3000);
+}, 3000);
   
   // 2000 milliseconds (2 seconds)
 });
