@@ -1134,6 +1134,12 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
     .bank-card-slider-wapper .cards-wrapper .cards.block ul li {
         width: 100%;
     }
+.get-more-from-bank-wappe .cards-wrapper .cards.block ul li{
+    width: 100%;
+
+    
+
+}
     .bank-card-slider-wapper .cards-wrapper .cards.block ul li .cards-card-image{
         flex: 0 0 70px;
         width: auto;
