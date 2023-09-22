@@ -1532,8 +1532,11 @@ h2#hear-from-our-happy-customers {
   border-radius: 0;
 }
 
+/* Initially hide the slider container */
 .hero-section-wrapper {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
 }
 
 @media (max-width: 768px) {
