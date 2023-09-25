@@ -89,7 +89,7 @@ export function loadCSS(href, callback) {
       link.onload = (e) => callback(e.type);
       link.onerror = (e) => callback(e.type);
     }
-    document.head.appendChild(link);
+    
   } else if (typeof callback === 'function') {
     callback('noop');
   }
