@@ -1,4 +1,4 @@
-export default function decorate(block) {
+export default function decorate(block)  {
   const buttons = document.createElement('div');
   buttons.className = 'carousel-buttons';
   [...block.children].forEach((row, i) => {
