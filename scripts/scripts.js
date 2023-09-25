@@ -181,7 +181,7 @@ async function loadEager(doc) {
 
   const main = doc.querySelector('main');
   if (main) {
-    await initAnalyticsTrackingQueue();
+    
     decorateMain(main);
     await waitForLCP(LCP_BLOCKS);
   }
@@ -271,18 +271,15 @@ function loadDelayed() {
 async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
-  const setupAnalytics = setupAnalyticsTrackingWithAlloy(document);
+ 
   loadDelayed();
-  await setupAnalytics;
+  
 }
 
 const cwv = {};
 
 // Forward the RUM CWV cached measurements to edge using WebSDK before the page unloads
-window.addEventListener('beforeunload', () => {
-  if (!Object.keys(cwv).length) return;
-  analyticsTrackCWV(cwv);
-});
+
 
 // Callback to RUM CWV checkpoint in order to cache the measurements
 sampleRUM.always.on('cwv', async (data) => {
@@ -290,8 +287,7 @@ sampleRUM.always.on('cwv', async (data) => {
   Object.assign(cwv, data.cwv);
 });
 
-sampleRUM.always.on('404', analyticsTrack404);
-sampleRUM.always.on('error', analyticsTrackError);
+
 
 // Declare conversionEvent, bufferTimeoutId and tempConversionEvent,
 // outside the convert function to persist them for buffering between
@@ -323,23 +319,17 @@ sampleRUM.always.on('convert', (data) => {
         conversionEvent = { ...tempConversionEvent, ...conversionEvent };
       } else {
         // Temporarily hold the conversionEvent object until the timeout is complete
-        tempConversionEvent = { ...conversionEvent };
+       
 
         // If there is partial form conversion data,
         // set the timeout buffer to wait for additional data
-        bufferTimeoutId = setTimeout(async () => {
-          analyticsTrackConversion({ ...conversionEvent });
-          tempConversionEvent = undefined;
-          conversionEvent = undefined;
-        }, CONVERSION_EVENT_TIMEOUT_MS);
+       
       }
     }
     return;
   }
 
-  analyticsTrackConversion({ ...data });
-  tempConversionEvent = undefined;
-  conversionEvent = undefined;
+  
 });
 
 loadPage();
