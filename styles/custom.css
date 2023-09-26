@@ -1575,17 +1575,6 @@ flex: none;
 }
 }
 
-.carousel-wrapper {
-  margin: auto;
-}    /* max-width: 1200px; */
-
-
-
- .carousel-wrapper {
-  max-width: unset;
-}
-
-
 .hero-section-wrapper .carousel-wrapper .carousel {
   display: flex;
   scroll-snap-type: x mandatory;
@@ -1600,7 +1589,7 @@ flex: none;
   width: 100%;
   flex-shrink: 0;
   scroll-snap-align: start;
-  position: relative;
+  position: relative; 
   /* min-height: 580px; */
   align-items: flex-end;
   display: flex;
@@ -1623,11 +1612,6 @@ flex: none;
   /* object-position: 90%; */
 }
 
-.hero-section-wrapper .carousel-wrapper .carousel div .carousel-image picture img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
 
 
 .hero-section-wrapper .carousel-wrapper .carousel div .carousel-text {
