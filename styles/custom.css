@@ -1019,6 +1019,10 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   height: auto;
 }
 
+.hero-section-wrapper .carousel-wrapper .carousel div {
+  min-height: 240px;
+}
+
 .hero-section-wrapper .carousel-wrapper .carousel div.carousel-text {
     max-width: 1200px;
     margin: 0 auto;
