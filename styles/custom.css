@@ -1024,11 +1024,15 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-section-wrapper .carousel-wrapper .carousel div.carousel-text {
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px;
+    margin: 0 auto; */
     background-color: transparent;
-    min-height: 188px;
-    padding: 0 28px;
+    /* min-height: 188px;
+    padding: 0 28px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width:900px) {
