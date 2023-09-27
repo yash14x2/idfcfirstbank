@@ -990,6 +990,7 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   scroll-snap-align: start;
   position: relative;
   /* min-height: 580px; */
+  height: 225px;
   align-items: flex-end;
   display: flex;
 }
