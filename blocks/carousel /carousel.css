@@ -3,8 +3,6 @@
   max-width: none;
 }    
 
-
-
 .hero-section-wrapper .carousel-wrapper {
   max-width: unset;
 }
@@ -17,7 +15,6 @@
   max-width: 1680px;
   margin: auto;
 }
-
 
 .hero-section-wrapper .carousel-wrapper .carousel div {
   /* width: 100%; */
