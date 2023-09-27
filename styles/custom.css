@@ -1019,7 +1019,7 @@ box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   height: auto;
 }
 
-.carousel div.carousel-text {
+.hero-section-wrapper .carousel-wrapper .carousel div.carousel-text {
     max-width: 1200px;
     margin: 0 auto;
     background-color: transparent;
