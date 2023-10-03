@@ -321,6 +321,10 @@ header nav .nav-sections .nav-drop::after {
     height: 137px;
     position: relative;
 }
+.cards{
+    display: flex !important;
+}
+
 
 header nav .nav-sections>ul>li>ul::before {
     display: none;
