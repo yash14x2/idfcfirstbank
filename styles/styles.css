@@ -61,6 +61,8 @@
   }
 }
 
+
+
 body {
   font-size: var(--body-font-size-m);
   margin: 0;
@@ -69,6 +71,16 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+}
+
+.cards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* display: grid; */
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 16px;
 }
 
 body.appear {
