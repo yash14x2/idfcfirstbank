@@ -478,10 +478,16 @@ import {
   }
   // Delay the initialization of the slider for 2 seconds after the page loads
   document.addEventListener('DOMContentLoaded', function() {
+
+setTimeout(() => {
     initializeSlider();
     
     siemafun();
     siemafun2();
+
+    
+}, 3000);
+
 
     
    
