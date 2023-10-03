@@ -78,11 +78,10 @@ body {
     margin: 0;
     padding: 0;
     /* display: grid; */
-    display: flex;
+    display: flex !important;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 16px;
 }
-
 body.appear {
   display: unset;
 }
