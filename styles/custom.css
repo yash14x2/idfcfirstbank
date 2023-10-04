@@ -363,10 +363,6 @@ main .section.hero-section-wrapper {
   background-color: #fff;
 }
 
-
-
-
-
 .section.bank-card-slider-wapper .default-content-wrapper .button-container {
   padding: 0;
   display: flex;
@@ -1599,7 +1595,7 @@ margin-right: 16px;
 width: 100%;
 flex: none;
 }
-
+ 
 #tns2 > .tns-item {
   width: calc(24%);
 }
